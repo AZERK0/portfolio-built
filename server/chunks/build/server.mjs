@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DYgK1y0p.mjs')
+    component: () => import('./index-ctjr5P_7.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -8345,20 +8345,22 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
         right: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(ssrRenderComponent(_component_UButton, {
-              label: "Sign in",
+              label: "Me contacter",
               color: "white",
               variant: "ghost",
               "trailing-icon": "i-heroicons-arrow-right-20-solid",
-              class: "hidden lg:flex"
+              class: "hidden lg:flex",
+              href: "?contactPopup=true"
             }, null, _parent2, _scopeId));
           } else {
             return [
               createVNode(_component_UButton, {
-                label: "Sign in",
+                label: "Me contacter",
                 color: "white",
                 variant: "ghost",
                 "trailing-icon": "i-heroicons-arrow-right-20-solid",
-                class: "hidden lg:flex"
+                class: "hidden lg:flex",
+                href: "?contactPopup=true"
               })
             ];
           }
@@ -8368,28 +8370,22 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
             _push2(ssrRenderComponent(_component_UAsideLinks, { links: unref(links) }, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(_component_UDivider, { class: "my-6" }, null, _parent2, _scopeId));
             _push2(ssrRenderComponent(_component_UButton, {
-              label: "Sign in",
+              label: "Me contacter",
               color: "white",
               block: "",
-              class: "mb-3"
-            }, null, _parent2, _scopeId));
-            _push2(ssrRenderComponent(_component_UButton, {
-              label: "Get started",
-              block: ""
+              class: "mb-3",
+              href: "?contactPopup=true"
             }, null, _parent2, _scopeId));
           } else {
             return [
               createVNode(_component_UAsideLinks, { links: unref(links) }, null, 8, ["links"]),
               createVNode(_component_UDivider, { class: "my-6" }),
               createVNode(_component_UButton, {
-                label: "Sign in",
+                label: "Me contacter",
                 color: "white",
                 block: "",
-                class: "mb-3"
-              }),
-              createVNode(_component_UButton, {
-                label: "Get started",
-                block: ""
+                class: "mb-3",
+                href: "?contactPopup=true"
               })
             ];
           }
