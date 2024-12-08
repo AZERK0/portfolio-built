@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-ctjr5P_7.mjs')
+    component: () => import('./index-ADYo93Nq.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -8153,12 +8153,12 @@ _sfc_main$i.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../node_modules/.pnpm/@nuxt+ui@2.18.7_magicast@0.3.5_rollup@4.24.0_vite@5.4.8_@types+node@22.7.4_terser@5.34.1__vue@3.5.11_typescript@5.6.2_/node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue");
   return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-const __nuxt_component_2$2 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$8]]);
+const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$8]]);
 const config$6 = mergeConfig(appConfig.ui.strategy, appConfig.ui.divider, divider);
 const _sfc_main$h = defineComponent({
   components: {
     UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_2$2
+    UAvatar: __nuxt_component_2$1
   },
   inheritAttrs: false,
   props: {
@@ -8234,7 +8234,7 @@ const _sfc_main$h = defineComponent({
 });
 function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_2$2;
+  const _component_UAvatar = __nuxt_component_2$1;
   _push(`<div${ssrRenderAttrs(mergeProps({ class: _ctx.wrapperClass }, _ctx.attrs, _attrs))}><div class="${ssrRenderClass(_ctx.borderClass)}"></div>`);
   if (_ctx.label || _ctx.icon || _ctx.avatar || _ctx.$slots.default) {
     _push(`<!--[--><div class="${ssrRenderClass(_ctx.containerClass)}">`);
@@ -8266,7 +8266,7 @@ _sfc_main$h.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../node_modules/.pnpm/@nuxt+ui@2.18.7_magicast@0.3.5_rollup@4.24.0_vite@5.4.8_@types+node@22.7.4_terser@5.34.1__vue@3.5.11_typescript@5.6.2_/node_modules/@nuxt/ui/dist/runtime/components/layout/Divider.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$7]]);
+const __nuxt_component_9 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$7]]);
 const useScrollspy = () => {
   const observer = ref();
   const visibleHeadings = ref([]);
@@ -8299,12 +8299,12 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
     const nuxtApp = useNuxtApp();
     const { activeHeadings, updateHeadings } = useScrollspy();
     const links = computed(() => [{
-      label: "Features",
-      to: "#features",
+      label: "Études",
+      to: "#studies",
       icon: "i-heroicons-cube-transparent",
-      active: activeHeadings.value.includes("features") && !activeHeadings.value.includes("pricing")
+      active: activeHeadings.value.includes("studies") && !activeHeadings.value.includes("pricing")
     }, {
-      label: "Pricing",
+      label: "Tarifs",
       to: "#pricing",
       icon: "i-heroicons-credit-card",
       active: activeHeadings.value.includes("pricing") && !activeHeadings.value.includes("testimonials")
@@ -8312,7 +8312,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
       label: "Testimonials",
       to: "#testimonials",
       icon: "i-heroicons-academic-cap",
-      active: activeHeadings.value.includes("testimonials")
+      active: activeHeadings.value.includes("testimonials") && !activeHeadings.value.includes("faq")
     }, {
       label: "FAQ",
       to: "#faq",
@@ -8321,7 +8321,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
     }]);
     nuxtApp.hooks.hookOnce("page:finish", () => {
       updateHeadings([
-        (void 0).querySelector("#features"),
+        (void 0).querySelector("#studies"),
         (void 0).querySelector("#pricing"),
         (void 0).querySelector("#testimonials"),
         (void 0).querySelector("#faq")
@@ -8331,7 +8331,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
       const _component_UHeader = _sfc_main$j;
       const _component_UButton = __nuxt_component_0$3;
       const _component_UAsideLinks = _sfc_main$k;
-      const _component_UDivider = __nuxt_component_2$1;
+      const _component_UDivider = __nuxt_component_9;
       _push(ssrRenderComponent(_component_UHeader, mergeProps({ links: unref(links) }, _attrs), {
         logo: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
@@ -8350,7 +8350,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
               variant: "ghost",
               "trailing-icon": "i-heroicons-arrow-right-20-solid",
               class: "hidden lg:flex",
-              href: "?contactPopup=true"
+              to: "?contactPopup=true"
             }, null, _parent2, _scopeId));
           } else {
             return [
@@ -8360,7 +8360,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
                 variant: "ghost",
                 "trailing-icon": "i-heroicons-arrow-right-20-solid",
                 class: "hidden lg:flex",
-                href: "?contactPopup=true"
+                to: "?contactPopup=true"
               })
             ];
           }
@@ -8374,7 +8374,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
               color: "white",
               block: "",
               class: "mb-3",
-              href: "?contactPopup=true"
+              to: "?contactPopup=true"
             }, null, _parent2, _scopeId));
           } else {
             return [
@@ -8385,7 +8385,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
                 color: "white",
                 block: "",
                 class: "mb-3",
-                href: "?contactPopup=true"
+                to: "?contactPopup=true"
               })
             ];
           }
@@ -8796,12 +8796,73 @@ _sfc_main$e.setup = (props, ctx) => {
 const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender$5]]);
 const _sfc_main$d = {};
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
-  _push(`<h1${ssrRenderAttrs(_attrs)}>Contact</h1>`);
+  const _component_UButton = __nuxt_component_0$3;
+  const _component_UDivider = __nuxt_component_9;
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col gap-4" }, _attrs))}><div class="grid grid-cols-2 gap-2">`);
+  _push(ssrRenderComponent(_component_UButton, {
+    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    icon: "i-simple-icons-linkedin",
+    size: "lg",
+    color: "blue",
+    variant: "solid",
+    label: "LinkedIn",
+    trailing: false,
+    to: "https://www.linkedin.com/in/raphael-charpentier-38b51720b/",
+    target: "_blank"
+  }, null, _parent));
+  _push(ssrRenderComponent(_component_UButton, {
+    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    icon: "i-simple-icons-github",
+    size: "lg",
+    color: "gray",
+    variant: "solid",
+    label: "GitHub",
+    trailing: false,
+    to: "https://github.com/AZERK0",
+    target: "_blank"
+  }, null, _parent));
+  _push(ssrRenderComponent(_component_UButton, {
+    block: "",
+    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    icon: "i-simple-icons-malt",
+    size: "lg",
+    color: "rose",
+    variant: "solid",
+    label: "Malt - Freelance",
+    trailing: false,
+    class: "col-span-2",
+    to: "https://www.malt.fr/profile/raphaelcharpentier",
+    target: "_blank"
+  }, null, _parent));
+  _push(`</div>`);
+  _push(ssrRenderComponent(_component_UDivider, { label: "Ou" }, null, _parent));
+  _push(ssrRenderComponent(_component_UButton, {
+    block: "",
+    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    icon: "i-heroicons-envelope-solid",
+    size: "lg",
+    variant: "solid",
+    label: "raph.chrp@gmail.com",
+    trailing: false,
+    to: "mailto:raph.chrp@gmail.com"
+  }, null, _parent));
+  _push(ssrRenderComponent(_component_UButton, {
+    block: "",
+    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    icon: "i-heroicons-phone-solid",
+    size: "lg",
+    color: "white",
+    variant: "solid",
+    label: "(+33) 6 26 65 53 91",
+    trailing: false,
+    to: "tel:+33626655391"
+  }, null, _parent));
+  _push(`</div>`);
 }
 const _sfc_setup$d = _sfc_main$d.setup;
 _sfc_main$d.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Contact.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ContactMe.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
 const __nuxt_component_4 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$4]]);
@@ -10212,7 +10273,7 @@ const config$1 = mergeConfig(appConfig.ui.strategy, appConfig.ui.notification, n
 const _sfc_main$4 = defineComponent({
   components: {
     UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_2$2,
+    UAvatar: __nuxt_component_2$1,
     UButton: __nuxt_component_0$3
   },
   inheritAttrs: false,
@@ -10363,7 +10424,7 @@ const _sfc_main$4 = defineComponent({
 });
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_2$2;
+  const _component_UAvatar = __nuxt_component_2$1;
   const _component_UButton = __nuxt_component_0$3;
   _push(`<template><div${ssrRenderAttrs(mergeProps({
     class: _ctx.wrapperClass,
@@ -10590,7 +10651,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       const _component_UModal = __nuxt_component_1;
       const _component_UCard = __nuxt_component_0$2;
       const _component_UButton = __nuxt_component_0$3;
-      const _component_Contact = __nuxt_component_4;
+      const _component_ContactMe = __nuxt_component_4;
       const _component_UMain = _sfc_main$c;
       const _component_NuxtPage = __nuxt_component_6;
       const _component_AppFooter = _sfc_main$5;
@@ -10633,10 +10694,10 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
               }),
               default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
-                  _push3(ssrRenderComponent(_component_Contact, { class: "h-32" }, null, _parent3, _scopeId2));
+                  _push3(ssrRenderComponent(_component_ContactMe, null, null, _parent3, _scopeId2));
                 } else {
                   return [
-                    createVNode(_component_Contact, { class: "h-32" })
+                    createVNode(_component_ContactMe)
                   ];
                 }
               }),
@@ -10660,7 +10721,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
                     ])
                   ]),
                   default: withCtx(() => [
-                    createVNode(_component_Contact, { class: "h-32" })
+                    createVNode(_component_ContactMe)
                   ]),
                   _: 1
                 })
@@ -10797,5 +10858,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { o$1 as A, t$2 as B, i$1 as C, A$2 as D, s$3 as E, l$2 as F, o as G, useRoute as H, useRuntimeConfig as I, useNuxtApp as J, useToast as K, useState as L, N$3 as N, _export_sfc as _, __nuxt_component_0$7 as a, useUI as b, __nuxt_component_0$8 as c, __nuxt_component_0$3 as d, entry$1 as default, appConfig as e, useInjectButtonGroup as f, usePopper as g, useAppConfig as h, __nuxt_component_1$1 as i, config$b as j, getNuxtLinkProps as k, getSlotChildrenText as l, mergeConfig as m, nuxtLinkProps as n, __nuxt_component_0$2 as o, __nuxt_component_2$1 as p, __nuxt_component_2$2 as q, button as r, s$5 as s, tooltip as t, useHead as u, omit as v, useAsyncData as w, useSeoMeta as x, i$5 as y, u$5 as z };
+export { o$1 as A, t$2 as B, i$1 as C, A$2 as D, s$3 as E, l$2 as F, o as G, useRoute as H, useRuntimeConfig as I, useNuxtApp as J, useToast as K, useState as L, N$3 as N, _export_sfc as _, __nuxt_component_0$7 as a, useUI as b, __nuxt_component_0$8 as c, __nuxt_component_0$3 as d, entry$1 as default, appConfig as e, useInjectButtonGroup as f, usePopper as g, useAppConfig as h, __nuxt_component_1$1 as i, config$b as j, getNuxtLinkProps as k, getSlotChildrenText as l, mergeConfig as m, nuxtLinkProps as n, __nuxt_component_0$2 as o, __nuxt_component_9 as p, __nuxt_component_2$1 as q, button as r, s$5 as s, tooltip as t, useHead as u, omit as v, useAsyncData as w, useSeoMeta as x, i$5 as y, u$5 as z };
 //# sourceMappingURL=server.mjs.map
