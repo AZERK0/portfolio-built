@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-ADYo93Nq.mjs')
+    component: () => import('./index-ByRFeL02.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1464,37 +1464,37 @@ const LazyCallout = defineAsyncComponent(() => import('./Callout-CjIpG6pL.mjs').
 const LazyCard = defineAsyncComponent(() => import('./Card-DZXVb_7A.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-DoR8OL-A.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-B-2-eOHp.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-bD4pvZMs.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-bsYFDRYr.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyField = defineAsyncComponent(() => import('./Field-DeGbuR2k.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-NkBhco4G.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-DDUVT87W.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyTabs = defineAsyncComponent(() => import('./Tabs-CCXajY4q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-C7MpqssV.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-DF-c2u6a.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-BoHyyj_9.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-DF18-bXz.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-D71lQppw.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-PfyYWoZd.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-DkZhtbDE.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-1oSke1xn.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-BJ55T-7Y.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-CfQLYGpN.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-DIsQ1CJy.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-ChYJL7A0.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-DvrtN9Gc.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-DnEcQZTW.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-BnTXep_w.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-DJffikoR.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-DGwmTQ87.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-BMZZ4a-j.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-BdIF5za1.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-BJNAXcfe.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-DcdvC7Si.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot-OYguIYno.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-D-HpOTFS.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-B3xRL9p6.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-DXW5LLno.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-DfaVA199.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-OFpgDzaf.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-xurNIi0U.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseA = defineAsyncComponent(() => import('./ProseA-BNca-jIi.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-uTLr4Yw3.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-Be9ZZiy-.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-DdhwDC4Q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-CzRHjVPF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-Cfct65j8.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-Dyn3sI1n.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-ZlOaBhmI.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-BPcaKGG-.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-De4P9B_F.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-BDeK5Z4U.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-Dshl05Ef.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseP = defineAsyncComponent(() => import('./ProseP-6jTg2RYg.mjs').then((r2) => r2["default"] || r2.default || r2));
@@ -1861,6 +1861,25 @@ function hexToRgb(hex) {
   });
   const result = rxHex.exec(hex);
   return result ? `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}` : null;
+}
+function getSlotsChildren(slots) {
+  var _a;
+  let children = (_a = slots.default) == null ? void 0 : _a.call(slots);
+  if (children == null ? void 0 : children.length) {
+    children = children.flatMap((c2) => {
+      var _a2, _b;
+      if (typeof c2.type === "symbol") {
+        if (typeof c2.children === "string") {
+          return;
+        }
+        return c2.children;
+      } else if (c2.type.name === "MDCSlot") {
+        return (_b = (_a2 = c2.ctx.slots).default) == null ? void 0 : _b.call(_a2);
+      }
+      return c2;
+    }).filter(Boolean);
+  }
+  return children || [];
 }
 function looseToNumber(val) {
   const n2 = parseFloat(val);
@@ -8153,12 +8172,12 @@ _sfc_main$i.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../node_modules/.pnpm/@nuxt+ui@2.18.7_magicast@0.3.5_rollup@4.24.0_vite@5.4.8_@types+node@22.7.4_terser@5.34.1__vue@3.5.11_typescript@5.6.2_/node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue");
   return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$8]]);
+const __nuxt_component_4$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$8]]);
 const config$6 = mergeConfig(appConfig.ui.strategy, appConfig.ui.divider, divider);
 const _sfc_main$h = defineComponent({
   components: {
     UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_2$1
+    UAvatar: __nuxt_component_4$1
   },
   inheritAttrs: false,
   props: {
@@ -8234,7 +8253,7 @@ const _sfc_main$h = defineComponent({
 });
 function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_2$1;
+  const _component_UAvatar = __nuxt_component_4$1;
   _push(`<div${ssrRenderAttrs(mergeProps({ class: _ctx.wrapperClass }, _ctx.attrs, _attrs))}><div class="${ssrRenderClass(_ctx.borderClass)}"></div>`);
   if (_ctx.label || _ctx.icon || _ctx.avatar || _ctx.$slots.default) {
     _push(`<!--[--><div class="${ssrRenderClass(_ctx.containerClass)}">`);
@@ -8307,12 +8326,12 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
       label: "Tarifs",
       to: "#pricing",
       icon: "i-heroicons-credit-card",
-      active: activeHeadings.value.includes("pricing") && !activeHeadings.value.includes("testimonials")
+      active: activeHeadings.value.includes("pricing") && !activeHeadings.value.includes("projects")
     }, {
-      label: "Testimonials",
-      to: "#testimonials",
+      label: "Projets",
+      to: "#projects",
       icon: "i-heroicons-academic-cap",
-      active: activeHeadings.value.includes("testimonials") && !activeHeadings.value.includes("faq")
+      active: activeHeadings.value.includes("projects") && !activeHeadings.value.includes("faq")
     }, {
       label: "FAQ",
       to: "#faq",
@@ -10273,7 +10292,7 @@ const config$1 = mergeConfig(appConfig.ui.strategy, appConfig.ui.notification, n
 const _sfc_main$4 = defineComponent({
   components: {
     UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_2$1,
+    UAvatar: __nuxt_component_4$1,
     UButton: __nuxt_component_0$3
   },
   inheritAttrs: false,
@@ -10424,7 +10443,7 @@ const _sfc_main$4 = defineComponent({
 });
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_2$1;
+  const _component_UAvatar = __nuxt_component_4$1;
   const _component_UButton = __nuxt_component_0$3;
   _push(`<template><div${ssrRenderAttrs(mergeProps({
     class: _ctx.wrapperClass,
@@ -10858,5 +10877,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { o$1 as A, t$2 as B, i$1 as C, A$2 as D, s$3 as E, l$2 as F, o as G, useRoute as H, useRuntimeConfig as I, useNuxtApp as J, useToast as K, useState as L, N$3 as N, _export_sfc as _, __nuxt_component_0$7 as a, useUI as b, __nuxt_component_0$8 as c, __nuxt_component_0$3 as d, entry$1 as default, appConfig as e, useInjectButtonGroup as f, usePopper as g, useAppConfig as h, __nuxt_component_1$1 as i, config$b as j, getNuxtLinkProps as k, getSlotChildrenText as l, mergeConfig as m, nuxtLinkProps as n, __nuxt_component_0$2 as o, __nuxt_component_9 as p, __nuxt_component_2$1 as q, button as r, s$5 as s, tooltip as t, useHead as u, omit as v, useAsyncData as w, useSeoMeta as x, i$5 as y, u$5 as z };
+export { i$5 as A, u$5 as B, o$1 as C, t$2 as D, i$1 as E, A$2 as F, s$3 as G, l$2 as H, o as I, useRoute as J, useRuntimeConfig as K, useNuxtApp as L, useToast as M, N$3 as N, useState as O, _export_sfc as _, __nuxt_component_0$7 as a, useUI as b, __nuxt_component_0$8 as c, __nuxt_component_0$3 as d, entry$1 as default, appConfig as e, useInjectButtonGroup as f, usePopper as g, useAppConfig as h, __nuxt_component_1$1 as i, config$b as j, getNuxtLinkProps as k, getSlotChildrenText as l, mergeConfig as m, nuxtLinkProps as n, __nuxt_component_0$2 as o, __nuxt_component_9 as p, avatar as q, getSlotsChildren as r, __nuxt_component_4$1 as s, tooltip as t, useHead as u, button as v, s$5 as w, omit as x, useAsyncData as y, useSeoMeta as z };
 //# sourceMappingURL=server.mjs.map
