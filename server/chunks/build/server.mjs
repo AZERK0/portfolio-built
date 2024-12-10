@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-ByRFeL02.mjs')
+    component: () => import('./index-CeMZ-Rj2.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -8342,7 +8342,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
       updateHeadings([
         (void 0).querySelector("#studies"),
         (void 0).querySelector("#pricing"),
-        (void 0).querySelector("#testimonials"),
+        (void 0).querySelector("#projects"),
         (void 0).querySelector("#faq")
       ]);
     });
