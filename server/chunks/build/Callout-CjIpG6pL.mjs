@@ -1,4 +1,4 @@
-import { h as useAppConfig, b as useUI, j as config$b, a as __nuxt_component_0$7, i as __nuxt_component_1$1 } from './server.mjs';
+import { h as useAppConfig, b as useUI, j as config$9, a as __nuxt_component_0$7, i as __nuxt_component_1$1 } from './server.mjs';
 import { defineComponent, computed, toRef, mergeProps, unref, withCtx, createVNode, useSSRContext } from 'vue';
 import { ssrRenderAttrs, ssrRenderComponent } from 'vue/server-renderer';
 import { s as ssrRenderSlot } from './ssrSlot-Bum7rJyU.mjs';
@@ -76,14 +76,14 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       if (props.color === "primary") {
         return "rgb(var(--color-primary-DEFAULT))";
       }
-      return ((_a = config$b[props.color]) == null ? void 0 : _a["500"]) || config$b[props.color] || props.color;
+      return ((_a = config$9[props.color]) == null ? void 0 : _a["500"]) || config$9[props.color] || props.color;
     });
     const colorDark = computed(() => {
       var _a;
       if (props.color === "primary") {
         return "rgb(var(--color-primary-DEFAULT))";
       }
-      return ((_a = config$b[props.color]) == null ? void 0 : _a["400"]) || config$b[props.color] || props.color;
+      return ((_a = config$9[props.color]) == null ? void 0 : _a["400"]) || config$9[props.color] || props.color;
     });
     const target = computed(() => props.target || (props.to && props.to.startsWith("http") ? "_blank" : void 0));
     return (_ctx, _push, _parent, _attrs) => {

@@ -1,4 +1,4 @@
-import { m as mergeConfig, e as appConfig, b as useUI, f as useInjectButtonGroup, t as tooltip, g as usePopper, n as nuxtLinkProps, j as config$b, k as getNuxtLinkProps, l as getSlotChildrenText, q as avatar, r as getSlotsChildren, s as __nuxt_component_4$1, v as useAsyncData, w as useSeoMeta, h as useAppConfig, o as __nuxt_component_0$2, a as __nuxt_component_0$7, i as __nuxt_component_1$1, p as __nuxt_component_9, c as __nuxt_component_0$8, d as __nuxt_component_0$3, _ as _export_sfc } from './server.mjs';
+import { m as mergeConfig, e as appConfig, b as useUI, f as useInjectButtonGroup, t as tooltip, g as usePopper, n as nuxtLinkProps, j as config$9, k as getNuxtLinkProps, l as getSlotChildrenText, q as avatar, r as getSlotsChildren, s as __nuxt_component_4$1, v as useAsyncData, w as useSeoMeta, h as useAppConfig, o as __nuxt_component_0$2, a as __nuxt_component_0$7, i as __nuxt_component_1$1, p as __nuxt_component_9, c as __nuxt_component_0$8, d as __nuxt_component_0$3, _ as _export_sfc } from './server.mjs';
 import { useSSRContext, defineComponent, toRef, computed, ref, useSlots, unref, mergeProps, withCtx, createVNode, openBlock, createBlock, createCommentVNode, renderSlot, createTextVNode, toDisplayString, cloneVNode, h, Fragment, renderList, withAsyncContext, createSlots } from 'vue';
 import { ssrRenderAttrs, ssrRenderComponent, ssrRenderClass, ssrRenderSlot, ssrInterpolate, ssrRenderList, ssrRenderAttr, ssrRenderStyle } from 'vue/server-renderer';
 import { twMerge, twJoin } from 'tailwind-merge';
@@ -1096,14 +1096,14 @@ const _sfc_main$5 = /* @__PURE__ */ defineComponent({
       if (props.color === "primary") {
         return "rgb(var(--color-primary-DEFAULT))";
       }
-      return ((_a = config$b[props.color]) == null ? void 0 : _a["500"]) || config$b[props.color] || props.color;
+      return ((_a = config$9[props.color]) == null ? void 0 : _a["500"]) || config$9[props.color] || props.color;
     });
     const colorDark = computed(() => {
       var _a;
       if (props.color === "primary") {
         return "rgb(var(--color-primary-DEFAULT))";
       }
-      return ((_a = config$b[props.color]) == null ? void 0 : _a["400"]) || config$b[props.color] || props.color;
+      return ((_a = config$9[props.color]) == null ? void 0 : _a["400"]) || config$9[props.color] || props.color;
     });
     const config2 = computed(() => {
       const base = twJoin(
