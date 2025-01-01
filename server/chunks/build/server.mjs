@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CfmIOFiI.mjs')
+    component: () => import('./index-B-CbkY_W.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1915,7 +1915,7 @@ const _cool = { "50": "#f9fafb", "100": "#f3f4f6", "200": "#e5e7eb", "300": "#d1
 const config$9 = { "inherit": _inherit, "current": _current, "transparent": _transparent, "black": _black, "white": _white, "slate": _slate, "gray": _gray, "zinc": _zinc, "neutral": _neutral, "stone": _stone, "red": _red, "orange": _orange, "amber": _amber, "yellow": _yellow, "lime": _lime, "green": _green, "emerald": _emerald, "teal": _teal, "cyan": _cyan, "sky": _sky, "blue": _blue, "indigo": _indigo, "violet": _violet, "purple": _purple, "fuchsia": _fuchsia, "pink": _pink, "rose": _rose, "background": _background, "foreground": _foreground, "primary": _primary, "cool": _cool };
 const cfg0 = defineAppConfig({
   ui: {
-    primary: "indigo",
+    primary: "orange",
     gray: "zinc",
     variables: {
       light: {
