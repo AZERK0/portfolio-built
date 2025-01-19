@@ -4251,7 +4251,7 @@ const appConfig0 = defineAppConfig({
     },
     pricing: {
       card: {
-        highlight: "ring-gray-900 dark:ring-white",
+        highlight: "",
         features: {
           item: {
             icon: {
@@ -4546,7 +4546,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "e1ed8870-d942-4dc0-b328-a99e3051e20f",
+    "buildId": "5592fff9-cf94-4208-8225-68f64db78121",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4626,7 +4626,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1735752891913,
+      "integrity": 1737306321073,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -5469,15 +5469,15 @@ async function dispose(driver) {
 const _assets = {
   ["nitro:bundled:cache:content:content-index.json"]: {
     import: () => import('./raw/content-index.mjs').then(r => r.default || r),
-    meta: {"type":"application/json","etag":"\"1b-65/uq9HgzlkehnKPBQbg/EkrlfE\"","mtime":"2025-01-01T17:35:24.964Z"}
+    meta: {"type":"application/json","etag":"\"1b-65/uq9HgzlkehnKPBQbg/EkrlfE\"","mtime":"2025-01-19T17:06:04.337Z"}
   },
   ["nitro:bundled:cache:content:content-navigation.json"]: {
     import: () => import('./raw/content-navigation.mjs').then(r => r.default || r),
-    meta: {"type":"application/json","etag":"\"47-K0K88V3fvSYl2bl9siBThbceEDU\"","mtime":"2025-01-01T17:35:24.964Z"}
+    meta: {"type":"application/json","etag":"\"47-K0K88V3fvSYl2bl9siBThbceEDU\"","mtime":"2025-01-19T17:06:04.338Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:index.yml"]: {
     import: () => import('./raw/index.mjs').then(r => r.default || r),
-    meta: {"type":"text/yaml; charset=utf-8","etag":"\"1698-gjuMCt6JOXXZEgyyRec4X8CN/l8\"","mtime":"2025-01-01T17:35:24.966Z"}
+    meta: {"type":"text/yaml; charset=utf-8","etag":"\"279a-MQds2L82Kva0zlmS3BKFJny905E\"","mtime":"2025-01-19T17:06:04.338Z"}
   }
 };
 
@@ -6290,9 +6290,9 @@ const assets = {
   },
   "/index.html": {
     "type": "text/html;charset=utf-8",
-    "etag": "\"309b3-95xIzH2WuLHc6quqKjUSYW3NG0c\"",
-    "mtime": "2025-01-01T17:35:24.555Z",
-    "size": 199091,
+    "etag": "\"3448e-z9iz50eTc/cBZW08pYmlFnioPoo\"",
+    "mtime": "2025-01-19T17:06:03.893Z",
+    "size": 214158,
     "path": "../public/index.html"
   },
   "/portrait.webp": {
@@ -6304,9 +6304,9 @@ const assets = {
   },
   "/_payload.json": {
     "type": "application/json;charset=utf-8",
-    "etag": "\"186c-Dzqw+/5wL07Wq2PI+UbkLGdLvsE\"",
-    "mtime": "2025-01-01T17:35:24.567Z",
-    "size": 6252,
+    "etag": "\"29d3-wBoxN3ynuY2WZGCu7WCrXJcx5cc\"",
+    "mtime": "2025-01-19T17:06:04.087Z",
+    "size": 10707,
     "path": "../public/_payload.json"
   },
   "/studies/aragon.webp": {
@@ -6323,481 +6323,488 @@ const assets = {
     "size": 41520,
     "path": "../public/studies/epitech.webp"
   },
-  "/_nuxt/-Jn3sIo3.js": {
+  "/_nuxt/-7brSFf6.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1d96-7v5UJG0+Ot2sCEisP73JiGD5r6Y\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 7574,
-    "path": "../public/_nuxt/-Jn3sIo3.js"
-  },
-  "/_nuxt/A1brWi4Q.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"16a-g20yOYXRnzZJHhduEDXgjbK/5fc\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 362,
-    "path": "../public/_nuxt/A1brWi4Q.js"
-  },
-  "/_nuxt/B-e-fgB4.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"14e-tTkGiIVcomAD53jBNvmmDRTvvw0\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
-    "size": 334,
-    "path": "../public/_nuxt/B-e-fgB4.js"
-  },
-  "/_nuxt/B9KgBcJo.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"6b4-BXYR5TipR34AfgQnrx5R/OTV3js\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 1716,
-    "path": "../public/_nuxt/B9KgBcJo.js"
-  },
-  "/_nuxt/B9PzR8FK.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"1228-KfriK89DA2OX87nMCwzujRxrwDY\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 4648,
-    "path": "../public/_nuxt/B9PzR8FK.js"
-  },
-  "/_nuxt/Bb4Bp0yp.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"2fe-ABQlDc78aqWhBYGdkrFhPPnEz1A\"",
-    "mtime": "2025-01-01T17:35:08.696Z",
-    "size": 766,
-    "path": "../public/_nuxt/Bb4Bp0yp.js"
-  },
-  "/_nuxt/BC-F00pv.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"90f-MRJSxdaiAcFDBRCgdOb6iDm+8Xg\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 2319,
-    "path": "../public/_nuxt/BC-F00pv.js"
-  },
-  "/_nuxt/BDZ47ZS7.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4f9-d4691mlyTD7If6Uzlry4mWD7ZSU\"",
-    "mtime": "2025-01-01T17:35:08.696Z",
-    "size": 1273,
-    "path": "../public/_nuxt/BDZ47ZS7.js"
-  },
-  "/_nuxt/be_d2lo1.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"7d9-AiScFuMSBDFhAcsd8crPvxSk0TM\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 2009,
-    "path": "../public/_nuxt/be_d2lo1.js"
-  },
-  "/_nuxt/Bgfkew_T.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"19d-8cLBqo0vJgWAE8JXe3iTlQ7Yc34\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 413,
-    "path": "../public/_nuxt/Bgfkew_T.js"
-  },
-  "/_nuxt/Bgz4CTs6.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-Yvfr/1h7wLqbWLMgtkWuKhA8U4k\"",
-    "mtime": "2025-01-01T17:35:08.698Z",
-    "size": 175,
-    "path": "../public/_nuxt/Bgz4CTs6.js"
-  },
-  "/_nuxt/BHkbZIkD.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"8b-LUYo2VGfWshZ6GHXE51JQGuJ2gM\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 139,
-    "path": "../public/_nuxt/BHkbZIkD.js"
-  },
-  "/_nuxt/BKCuEf8X.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"496-UpWYfKemLTM3wXY0FtB3cewV0Fo\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 1174,
-    "path": "../public/_nuxt/BKCuEf8X.js"
-  },
-  "/_nuxt/BNgDGSIp.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"360-ToHpL3WoQegcKb+SwIzrg4o6Ix0\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
+    "etag": "\"360-I6me4t1qRuVwaX4oXsRLDllhM1g\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
     "size": 864,
-    "path": "../public/_nuxt/BNgDGSIp.js"
+    "path": "../public/_nuxt/-7brSFf6.js"
   },
-  "/_nuxt/Bpf74yfT.js": {
+  "/_nuxt/2Pp_91K-.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"b3-Lfr3xvGOjJW9hP+66Z/DkKzPv0k\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 179,
-    "path": "../public/_nuxt/Bpf74yfT.js"
+    "etag": "\"1b52c-kXl7u+HI71SvkNtX7g1lDnS3PuA\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 111916,
+    "path": "../public/_nuxt/2Pp_91K-.js"
   },
-  "/_nuxt/BU9hTMOt.js": {
+  "/_nuxt/8rbsQas5.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"243-Xg1YywpT9s92MaaZ7+nqcN9Cfk0\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 579,
-    "path": "../public/_nuxt/BU9hTMOt.js"
+    "etag": "\"1218-GSzDcpZXDnCB171TwXZEqNJ7Ynw\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 4632,
+    "path": "../public/_nuxt/8rbsQas5.js"
   },
-  "/_nuxt/BWA5heWM.js": {
+  "/_nuxt/a4PnKL7V.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"90-ARkHqPhdUSrBDGuP7P69TD+Vtwg\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 144,
-    "path": "../public/_nuxt/BWA5heWM.js"
+    "etag": "\"b5-zZQ/NGPWEYQOkpjF2hOl/kHT1WU\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 181,
+    "path": "../public/_nuxt/a4PnKL7V.js"
   },
-  "/_nuxt/B_daTIjn.js": {
+  "/_nuxt/B0uzxOK_.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"b2-JjNxxpFKWUuoS6r09jawshEdmjo\"",
-    "mtime": "2025-01-01T17:35:08.698Z",
-    "size": 178,
-    "path": "../public/_nuxt/B_daTIjn.js"
+    "etag": "\"368-VYIAjcrzNlMqmuBn9rJImo+o0Dc\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 872,
+    "path": "../public/_nuxt/B0uzxOK_.js"
+  },
+  "/_nuxt/B3vJLjuZ.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"16c-5R8FkuvnWzJHU9BxM6iflz5/z38\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 364,
+    "path": "../public/_nuxt/B3vJLjuZ.js"
+  },
+  "/_nuxt/B7zq2bZg.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b5-rnVOj35D/aMRtWv31bHpoeO6beQ\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 181,
+    "path": "../public/_nuxt/B7zq2bZg.js"
+  },
+  "/_nuxt/BCxh6PfS.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"3a5-yNL2U43Dpor0fnab4BZVx61fu2k\"",
+    "mtime": "2025-01-19T17:05:44.059Z",
+    "size": 933,
+    "path": "../public/_nuxt/BCxh6PfS.js"
+  },
+  "/_nuxt/BdFEjGcW.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"7d7-bws8GeE1+VvSz5OsJ2tT8YCI4MQ\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 2007,
+    "path": "../public/_nuxt/BdFEjGcW.js"
+  },
+  "/_nuxt/BmiruEvI.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b5-oTvy9btSoQvBE6UzKgapt0EEN68\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 181,
+    "path": "../public/_nuxt/BmiruEvI.js"
+  },
+  "/_nuxt/Bp5F6CMf.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"519-Kds+Aq5sTgOdyPaQLzJwjPQysjo\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 1305,
+    "path": "../public/_nuxt/Bp5F6CMf.js"
+  },
+  "/_nuxt/BQeT3SKQ.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b0-Xw9eJukmtY0N0fa5rcUMc5DRYdw\"",
+    "mtime": "2025-01-19T17:05:44.063Z",
+    "size": 176,
+    "path": "../public/_nuxt/BQeT3SKQ.js"
+  },
+  "/_nuxt/BqxTVvzO.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"209-Y3GKQXknYNyqVz8p3ACk6pkfjsk\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 521,
+    "path": "../public/_nuxt/BqxTVvzO.js"
+  },
+  "/_nuxt/BtReSZmf.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b8-HMa34KOryAOrwZnAffg38O+RG74\"",
+    "mtime": "2025-01-19T17:05:44.062Z",
+    "size": 184,
+    "path": "../public/_nuxt/BtReSZmf.js"
+  },
+  "/_nuxt/BwpSVXVw.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"994-VXEcSTjaSRgZII+6DMSNhNFe2BU\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 2452,
+    "path": "../public/_nuxt/BwpSVXVw.js"
+  },
+  "/_nuxt/BZ8mzgQg.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"301-WAB8J4rgrKJWN/XIOs2l+lP60j0\"",
+    "mtime": "2025-01-19T17:05:44.059Z",
+    "size": 769,
+    "path": "../public/_nuxt/BZ8mzgQg.js"
   },
   "/_nuxt/C-v3KzvZ.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"2ea-5DAAbu6tArfeYyY6Qf21UAkKRUs\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
+    "mtime": "2025-01-19T17:05:44.060Z",
     "size": 746,
     "path": "../public/_nuxt/C-v3KzvZ.js"
   },
-  "/_nuxt/C0pXhxMV.js": {
+  "/_nuxt/C07xhiWs.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"bc-bFFjKLzKQQQvZ8aOhpB9tPFCBJY\"",
-    "mtime": "2025-01-01T17:35:08.696Z",
-    "size": 188,
-    "path": "../public/_nuxt/C0pXhxMV.js"
+    "etag": "\"49b-AAzZxAF44hME8FuSaHQLzdBIngo\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 1179,
+    "path": "../public/_nuxt/C07xhiWs.js"
   },
-  "/_nuxt/C1aKmEwL.js": {
+  "/_nuxt/C4c3YzDJ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"9a-Y1H5BLMM4TtgB563AqTal4ctbec\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
-    "size": 154,
-    "path": "../public/_nuxt/C1aKmEwL.js"
+    "etag": "\"4da-7/rzJDhhKh7anCsjr6PbLcDlGU8\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 1242,
+    "path": "../public/_nuxt/C4c3YzDJ.js"
   },
-  "/_nuxt/C4YwR4_l.js": {
+  "/_nuxt/C6MUlIcg.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"364-CFwA3lPaFZMzwG6JZi86XhKq6GA\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 868,
-    "path": "../public/_nuxt/C4YwR4_l.js"
+    "etag": "\"b8-/aEvP5fvr1dUtkfY/wx2d5eqHsQ\"",
+    "mtime": "2025-01-19T17:05:44.061Z",
+    "size": 184,
+    "path": "../public/_nuxt/C6MUlIcg.js"
   },
-  "/_nuxt/C7XzxX5_.js": {
+  "/_nuxt/C7eiNghg.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"2296-5Pv+DGUNtZoiLKGKCcsT2OJMgnU\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 8854,
-    "path": "../public/_nuxt/C7XzxX5_.js"
+    "etag": "\"424-faXlmH6TFrX6vvx2QUy/wdbg5wo\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 1060,
+    "path": "../public/_nuxt/C7eiNghg.js"
   },
-  "/_nuxt/Ca5QO9ga.js": {
+  "/_nuxt/C957Hccp.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"243-Zavi39IvDg4msOmojjIEwjKl9sg\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 579,
-    "path": "../public/_nuxt/Ca5QO9ga.js"
-  },
-  "/_nuxt/CcIeMdEp.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-G1To6MCXpqIN+8Rzl66MxR4gmZ4\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 175,
-    "path": "../public/_nuxt/CcIeMdEp.js"
-  },
-  "/_nuxt/Ce8t0XrQ.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4e-e2ZZVIkVrG6z+YoNZp9VSVVFhEU\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 78,
-    "path": "../public/_nuxt/Ce8t0XrQ.js"
-  },
-  "/_nuxt/CFG4VNlW.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"1d6-k9SqqQrzc2pEdmlzluOBIk3mcVI\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 470,
-    "path": "../public/_nuxt/CFG4VNlW.js"
-  },
-  "/_nuxt/CHGkXfj9.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"b6-EDxo5/m7bofYdv7WQfLmQlUD6hk\"",
-    "mtime": "2025-01-01T17:35:08.695Z",
-    "size": 182,
-    "path": "../public/_nuxt/CHGkXfj9.js"
-  },
-  "/_nuxt/Cj3NcLPH.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-XieWsr+1r5S+wiIYTGORlwDo4fk\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 175,
-    "path": "../public/_nuxt/Cj3NcLPH.js"
-  },
-  "/_nuxt/CLyOanWU.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4e-oZJ1ZpD7lNVryaR2AiNm37Rsjoo\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 78,
-    "path": "../public/_nuxt/CLyOanWU.js"
-  },
-  "/_nuxt/CRCdDMjB.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"9a4-fnATSCbAnrhzjEh29uwnaUQZ9XQ\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 2468,
-    "path": "../public/_nuxt/CRCdDMjB.js"
-  },
-  "/_nuxt/CSieNixg.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"4db-yrkzsGd44GEGMCldeoML8kkzybo\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 1243,
-    "path": "../public/_nuxt/CSieNixg.js"
-  },
-  "/_nuxt/CsL3Ckr_.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"e8e-WTupOIeaoqxz28tTO7zZCtH5+Dc\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 3726,
-    "path": "../public/_nuxt/CsL3Ckr_.js"
-  },
-  "/_nuxt/CUfatqhw.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"b4-aXZm74vtXH2nEq2WKzM+4ypAl6Q\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
+    "etag": "\"b4-Jzx7q6o4G81uvW6/svZ2M4D9a9w\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
     "size": 180,
-    "path": "../public/_nuxt/CUfatqhw.js"
+    "path": "../public/_nuxt/C957Hccp.js"
   },
-  "/_nuxt/Cv1L8FOg.js": {
+  "/_nuxt/CABcsxbv.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"959-k6JuBFlFsf2sL4m14qv2riXBINc\"",
-    "mtime": "2025-01-01T17:35:08.696Z",
-    "size": 2393,
-    "path": "../public/_nuxt/Cv1L8FOg.js"
+    "etag": "\"368-8NLpKVY/gD5/rsaC7gxz+kndeBI\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 872,
+    "path": "../public/_nuxt/CABcsxbv.js"
   },
-  "/_nuxt/CWZe9WtJ.js": {
+  "/_nuxt/CbC6GA_Q.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"206-kb0iy7gv767FmqafllB9kbXKUVM\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 518,
-    "path": "../public/_nuxt/CWZe9WtJ.js"
+    "etag": "\"4e-iX7hyxHI24pN95EHATkq+oP8RXU\"",
+    "mtime": "2025-01-19T17:05:44.054Z",
+    "size": 78,
+    "path": "../public/_nuxt/CbC6GA_Q.js"
   },
-  "/_nuxt/DhE7swln.js": {
+  "/_nuxt/Cc1TzaxC.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"364-ET5ELqONzEdgn4T0Lvejotr5WOE\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 868,
-    "path": "../public/_nuxt/DhE7swln.js"
+    "etag": "\"55c3-Ncw8YFtROnGx3RG2xdjnIo9N0U4\"",
+    "mtime": "2025-01-19T17:05:44.063Z",
+    "size": 21955,
+    "path": "../public/_nuxt/Cc1TzaxC.js"
   },
-  "/_nuxt/Di1E60kZ.js": {
+  "/_nuxt/CGUdoWQT.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"6e9-JxPZc8iUNiB8tRPLS8tYyaZaLhA\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 1769,
-    "path": "../public/_nuxt/Di1E60kZ.js"
+    "etag": "\"6b9-kOC4z1B1TMraEq7hox+qFX2G5x0\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 1721,
+    "path": "../public/_nuxt/CGUdoWQT.js"
   },
-  "/_nuxt/Dl0ALHN8.js": {
+  "/_nuxt/CGyXvmc1.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"5e32-ZFGGZAz2pODS2JKTmufPl7z7eFk\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 24114,
-    "path": "../public/_nuxt/Dl0ALHN8.js"
+    "etag": "\"b9-HjIP3Fp1b/a0QJlnrMjPmMHShZw\"",
+    "mtime": "2025-01-19T17:05:44.061Z",
+    "size": 185,
+    "path": "../public/_nuxt/CGyXvmc1.js"
   },
-  "/_nuxt/Dlg2mFyQ.js": {
+  "/_nuxt/ChdCF-79.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"292-yt/UcEREbk+dhpgmx4KFIkM2X3Y\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 658,
-    "path": "../public/_nuxt/Dlg2mFyQ.js"
+    "etag": "\"90-NWtrumH52Q3XQoplEdGIPPsRK1Y\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 144,
+    "path": "../public/_nuxt/ChdCF-79.js"
   },
-  "/_nuxt/DM0VAeut.js": {
+  "/_nuxt/Chuws-U0.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"6f4-Q9xfhfN7tP2exZviddDMxG4ORw8\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 1780,
-    "path": "../public/_nuxt/DM0VAeut.js"
+    "etag": "\"1a5-cDBmnivgiuHEp+saIWJ4rvn+m3A\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 421,
+    "path": "../public/_nuxt/Chuws-U0.js"
+  },
+  "/_nuxt/CiYmmCCw.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"1d98-KF1AH4/9he7lwLK6jmy80ykLIVg\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 7576,
+    "path": "../public/_nuxt/CiYmmCCw.js"
+  },
+  "/_nuxt/CkFjZSLH.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b5-TsvnM/l2pFw4MkYYe8WDtn/QLVE\"",
+    "mtime": "2025-01-19T17:05:44.062Z",
+    "size": 181,
+    "path": "../public/_nuxt/CkFjZSLH.js"
+  },
+  "/_nuxt/CnYSZ-Q6.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b7-dIY/z+t4eHoCI2NmqT8nkvvmEos\"",
+    "mtime": "2025-01-19T17:05:44.057Z",
+    "size": 183,
+    "path": "../public/_nuxt/CnYSZ-Q6.js"
+  },
+  "/_nuxt/Cw09jFHQ.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"60c38-LVm/j8wwVqCHvejWfOyUHRIMkeI\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 396344,
+    "path": "../public/_nuxt/Cw09jFHQ.js"
+  },
+  "/_nuxt/CwG7cfmf.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"5e31-E+mykE47rcSr5j84ax8cbUqINjc\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 24113,
+    "path": "../public/_nuxt/CwG7cfmf.js"
+  },
+  "/_nuxt/CY8gKYvE.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"8b-FDCOV+JKNxMDIgNgIa8Axcnl2FM\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 139,
+    "path": "../public/_nuxt/CY8gKYvE.js"
+  },
+  "/_nuxt/CykUnsAG.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b8-6vlypyTahSXjw0PG0h4TcxHA/wY\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 184,
+    "path": "../public/_nuxt/CykUnsAG.js"
+  },
+  "/_nuxt/CyM1RbDw.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"7a-rejqq24bi7M5ihgcPSuOKpOZIqc\"",
+    "mtime": "2025-01-19T17:05:44.050Z",
+    "size": 122,
+    "path": "../public/_nuxt/CyM1RbDw.js"
+  },
+  "/_nuxt/D2w-Xj5V.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"23f-kmSHLTsJ9yKE7XqITCB2tce2es8\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 575,
+    "path": "../public/_nuxt/D2w-Xj5V.js"
+  },
+  "/_nuxt/D5gQdk3e.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"368-SpteHDwWDbjt0h/RdwBD3ths73o\"",
+    "mtime": "2025-01-19T17:05:44.054Z",
+    "size": 872,
+    "path": "../public/_nuxt/D5gQdk3e.js"
+  },
+  "/_nuxt/D6Ad-a_v.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"2297-b+TKSLYVYAXPgep0YDPLmO13C9I\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 8855,
+    "path": "../public/_nuxt/D6Ad-a_v.js"
+  },
+  "/_nuxt/DAa-mwCj.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"11a-M3ccXTOPQp1bsb33jvTU4FAtLXw\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 282,
+    "path": "../public/_nuxt/DAa-mwCj.js"
+  },
+  "/_nuxt/DG2bwrwq.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"b5-ekftNWxkRVmlwv/WAkvNZIzE9tE\"",
+    "mtime": "2025-01-19T17:05:44.062Z",
+    "size": 181,
+    "path": "../public/_nuxt/DG2bwrwq.js"
+  },
+  "/_nuxt/DlxXI3VC.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"917-wPKHxpw4nnNZk3jMTM6lWR5wQnE\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 2327,
+    "path": "../public/_nuxt/DlxXI3VC.js"
+  },
+  "/_nuxt/Dnby40Qo.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"36e-++CUQeTMrnyQ8D9ZL5Ajyvx7hUA\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 878,
+    "path": "../public/_nuxt/Dnby40Qo.js"
   },
   "/_nuxt/Dnd51l0P.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"454-nRFS6XJvhFXjKl5SUYB6FRqWSOU\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
+    "mtime": "2025-01-19T17:05:44.055Z",
     "size": 1108,
     "path": "../public/_nuxt/Dnd51l0P.js"
   },
-  "/_nuxt/DQXdfSEH.js": {
+  "/_nuxt/DoEvJHwQ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-ST4Fj79L36yZpjnGq3Nkjl8i+CY\"",
-    "mtime": "2025-01-01T17:35:08.698Z",
-    "size": 175,
-    "path": "../public/_nuxt/DQXdfSEH.js"
+    "etag": "\"23f-F5dMpCDHmzp2xJ/MRQb16texuIQ\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 575,
+    "path": "../public/_nuxt/DoEvJHwQ.js"
   },
-  "/_nuxt/Ds3hWBf5.js": {
+  "/_nuxt/DrCW2mTK.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"5f688-L+z5AIBtmzGllGNIMvTzZibokIU\"",
-    "mtime": "2025-01-01T17:35:08.690Z",
-    "size": 390792,
-    "path": "../public/_nuxt/Ds3hWBf5.js"
+    "etag": "\"99-2Br0wZHbDh7EROhZAmsweGpnVog\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 153,
+    "path": "../public/_nuxt/DrCW2mTK.js"
   },
-  "/_nuxt/DSJhHKGT.js": {
+  "/_nuxt/Drua-h5a.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"b2-4cyfRYtNPCwbffdRutfOkNyGOv0\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 178,
-    "path": "../public/_nuxt/DSJhHKGT.js"
+    "etag": "\"95c-dJgPXrlk+6wnch7H6l/b7iu+deA\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 2396,
+    "path": "../public/_nuxt/Drua-h5a.js"
   },
-  "/_nuxt/DTwTRjNW.js": {
+  "/_nuxt/DuDz_6P5.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"514-nGU2WNS7hkLNPR09iB2U2hLYRNs\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 1300,
-    "path": "../public/_nuxt/DTwTRjNW.js"
+    "etag": "\"6f1-b6KV/N1lNkdRA1otnaOhCQac1s4\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 1777,
+    "path": "../public/_nuxt/DuDz_6P5.js"
   },
-  "/_nuxt/dUgngdQA.js": {
+  "/_nuxt/DUOSqyDc.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"364-nehsWG9+GNg6jkNUpZKghN24NVE\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 868,
-    "path": "../public/_nuxt/dUgngdQA.js"
+    "etag": "\"4fc-N+C56XNndCZX1GMwA25Lsh1ydaQ\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 1276,
+    "path": "../public/_nuxt/DUOSqyDc.js"
   },
-  "/_nuxt/DuZbCPBG.js": {
+  "/_nuxt/DvCK7sAf.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"11b-C6Yz3s+0j/zty9yxaBk/l7AtFZc\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
-    "size": 283,
-    "path": "../public/_nuxt/DuZbCPBG.js"
+    "etag": "\"293-nTrfbzyEEAcn2MsIF4bmorzJyZA\"",
+    "mtime": "2025-01-19T17:05:44.060Z",
+    "size": 659,
+    "path": "../public/_nuxt/DvCK7sAf.js"
   },
-  "/_nuxt/DyHops9H.js": {
+  "/_nuxt/DweId6-w.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"ba-RaAxRgp0/WDiEd36xYAfJdaq83o\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 186,
-    "path": "../public/_nuxt/DyHops9H.js"
+    "etag": "\"368-GlMvJWHCb1s3dm1KNp9DmJDqWCk\"",
+    "mtime": "2025-01-19T17:05:44.054Z",
+    "size": 872,
+    "path": "../public/_nuxt/DweId6-w.js"
   },
-  "/_nuxt/DYp-7tWw.js": {
+  "/_nuxt/DXGKaClW.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"41c-DP3jaE1vFruR47g2V0+BJ+pr4ms\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 1052,
-    "path": "../public/_nuxt/DYp-7tWw.js"
+    "etag": "\"9a8-r3SgfKjuF9GsrziLENFeXSjAaBw\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 2472,
+    "path": "../public/_nuxt/DXGKaClW.js"
   },
-  "/_nuxt/DyUQEpxk.js": {
+  "/_nuxt/DZN6fwKb.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"d3c-ZYYv7JpIc046sEdeUuKkW3Rz6O8\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
+    "etag": "\"d3c-YmCmOhulxcCkv6Wg5+6eGPYeH3Y\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
     "size": 3388,
-    "path": "../public/_nuxt/DyUQEpxk.js"
-  },
-  "/_nuxt/dz8epIGu.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"55c3-R9rfuWyscqVmQat01JC2g1Bx1K0\"",
-    "mtime": "2025-01-01T17:35:08.699Z",
-    "size": 21955,
-    "path": "../public/_nuxt/dz8epIGu.js"
-  },
-  "/_nuxt/DzJl5Peq.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"b7-pJFvF9ZblKerHc5lTdncEMr3bnw\"",
-    "mtime": "2025-01-01T17:35:08.698Z",
-    "size": 183,
-    "path": "../public/_nuxt/DzJl5Peq.js"
-  },
-  "/_nuxt/DZLjWCqm.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"14ee-AV2GWRgOUo+sGMSo9hU5TWAVbPY\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
-    "size": 5358,
-    "path": "../public/_nuxt/DZLjWCqm.js"
+    "path": "../public/_nuxt/DZN6fwKb.js"
   },
   "/_nuxt/error-404.DrS0gKBy.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"de4-okJRqRePeMunvdKWxaQA9oANUSQ\"",
-    "mtime": "2025-01-01T17:35:08.688Z",
+    "mtime": "2025-01-19T17:05:44.049Z",
     "size": 3556,
     "path": "../public/_nuxt/error-404.DrS0gKBy.css"
   },
   "/_nuxt/error-500.CjTX6cQc.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"75c-w4zk5VqlMA6sgXdnhuqPbavi/yM\"",
-    "mtime": "2025-01-01T17:35:08.690Z",
+    "mtime": "2025-01-19T17:05:44.045Z",
     "size": 1884,
     "path": "../public/_nuxt/error-500.CjTX6cQc.css"
   },
-  "/_nuxt/HLHJqeRB.js": {
+  "/_nuxt/gfP2TMzY.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"ae-FWppqp7jX1c37vKYdsQmm2t7O5M\"",
-    "mtime": "2025-01-01T17:35:08.697Z",
-    "size": 174,
-    "path": "../public/_nuxt/HLHJqeRB.js"
+    "etag": "\"bb-dkaSKe8z1HY/+aYiREdoKRPWuCg\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 187,
+    "path": "../public/_nuxt/gfP2TMzY.js"
   },
-  "/_nuxt/index.VjgNEFYC.css": {
+  "/_nuxt/Gu0pTQl1.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"6f5-+5MUcD+pViWrrroknDGRLM0p95w\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 1781,
+    "path": "../public/_nuxt/Gu0pTQl1.js"
+  },
+  "/_nuxt/index.DH97dk_7.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"9f2-wuUbxrLcH4my7e/vMNUilk0ZtRQ\"",
-    "mtime": "2025-01-01T17:35:08.690Z",
-    "size": 2546,
-    "path": "../public/_nuxt/index.VjgNEFYC.css"
+    "etag": "\"cae-Xf7kLVqB+HxTZ8F9ahz8fZnt0tA\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 3246,
+    "path": "../public/_nuxt/index.DH97dk_7.css"
   },
-  "/_nuxt/jhiTdaEW.js": {
+  "/_nuxt/jQ3GImNZ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"7a-aYG2vhbOhpgFUh6bpbJyYQGxULU\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 122,
-    "path": "../public/_nuxt/jhiTdaEW.js"
+    "etag": "\"1d7-d4yg/yGd84e5NIdPtgqy0hQ96nU\"",
+    "mtime": "2025-01-19T17:05:44.061Z",
+    "size": 471,
+    "path": "../public/_nuxt/jQ3GImNZ.js"
   },
-  "/_nuxt/OMIhPPFU.js": {
+  "/_nuxt/kkXZZj2R.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-7qWkqngoBWSGoey3Qc+2KZwC910\"",
-    "mtime": "2025-01-01T17:35:08.699Z",
-    "size": 175,
-    "path": "../public/_nuxt/OMIhPPFU.js"
+    "etag": "\"b5-jaLP+vfL3R/zipvBW1rYveLgOqY\"",
+    "mtime": "2025-01-19T17:05:44.063Z",
+    "size": 181,
+    "path": "../public/_nuxt/kkXZZj2R.js"
+  },
+  "/_nuxt/mMLH6V8O.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"e8e-ItmkKOcGgHXPTyN8/nixXFv+How\"",
+    "mtime": "2025-01-19T17:05:44.049Z",
+    "size": 3726,
+    "path": "../public/_nuxt/mMLH6V8O.js"
   },
   "/_nuxt/ProsePre.CchFRBtv.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"2e-GbvrqT5j9gSWlpa8e36U/Kv6Zx0\"",
-    "mtime": "2025-01-01T17:35:08.690Z",
+    "mtime": "2025-01-19T17:05:44.049Z",
     "size": 46,
     "path": "../public/_nuxt/ProsePre.CchFRBtv.css"
   },
-  "/_nuxt/QDQDTP4G.js": {
+  "/_nuxt/PXDB8VSQ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"98b-EAkXqODSPbyAYeA8Y7ETIpuKrSQ\"",
-    "mtime": "2025-01-01T17:35:08.691Z",
-    "size": 2443,
-    "path": "../public/_nuxt/QDQDTP4G.js"
+    "etag": "\"b8-lAIMQkHQ2RSne95zBz4AfvVrnGY\"",
+    "mtime": "2025-01-19T17:05:44.061Z",
+    "size": 184,
+    "path": "../public/_nuxt/PXDB8VSQ.js"
   },
-  "/_nuxt/rzCUn_jS.js": {
+  "/_nuxt/q5KctaVJ.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"364-jnbSRgJu7xdrGmZ+hlLXZRJD1zs\"",
-    "mtime": "2025-01-01T17:35:08.693Z",
-    "size": 868,
-    "path": "../public/_nuxt/rzCUn_jS.js"
+    "etag": "\"14f-ixSa6+zTaFcPEH1gsSIg0Qmt9tw\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 335,
+    "path": "../public/_nuxt/q5KctaVJ.js"
   },
-  "/_nuxt/SeIVWVk_.js": {
+  "/_nuxt/TipYQ8jC.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"3a3-hcjzSunvNsvOw0AQsm1nx61daBY\"",
-    "mtime": "2025-01-01T17:35:08.696Z",
-    "size": 931,
-    "path": "../public/_nuxt/SeIVWVk_.js"
+    "etag": "\"4e-qHAyIHcRLfhnhDYJDAkARuaTHWw\"",
+    "mtime": "2025-01-19T17:05:44.050Z",
+    "size": 78,
+    "path": "../public/_nuxt/TipYQ8jC.js"
   },
-  "/_nuxt/T3ag9t7i.js": {
+  "/_nuxt/zahzhSRL.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"8224-27gNHQ3fZdrOE9tTeri+QROofLg\"",
-    "mtime": "2025-01-01T17:35:08.690Z",
-    "size": 33316,
-    "path": "../public/_nuxt/T3ag9t7i.js"
+    "etag": "\"14eb-UVuESC8TIb1N3hnEQ1HvUrsx86s\"",
+    "mtime": "2025-01-19T17:05:44.055Z",
+    "size": 5355,
+    "path": "../public/_nuxt/zahzhSRL.js"
   },
-  "/_nuxt/UEBglLdu.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"af-gaKxn0j5dV0siCJdCyYxca3amwo\"",
-    "mtime": "2025-01-01T17:35:08.698Z",
-    "size": 175,
-    "path": "../public/_nuxt/UEBglLdu.js"
-  },
-  "/_nuxt/zzreod0Z.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"373-s6Ei3kjfahfK5n93H0S2mrF94p0\"",
-    "mtime": "2025-01-01T17:35:08.694Z",
-    "size": 883,
-    "path": "../public/_nuxt/zzreod0Z.js"
-  },
-  "/api/_content/cache.1735752891913.json": {
+  "/api/_content/cache.1737306321073.json": {
     "type": "application/json",
-    "etag": "\"170b-PCDc9IQ/y6uvaS8/wnZwOny7DeE\"",
-    "mtime": "2025-01-01T17:35:24.529Z",
-    "size": 5899,
-    "path": "../public/api/_content/cache.1735752891913.json"
+    "etag": "\"280e-lEj5P7FHPvxeHWvnnBencz/ApT4\"",
+    "mtime": "2025-01-19T17:06:03.874Z",
+    "size": 10254,
+    "path": "../public/api/_content/cache.1737306321073.json"
+  },
+  "/projects/assetto-corsa-event/gt3-grand-prix.webp": {
+    "type": "image/webp",
+    "etag": "\"e9dc-UbRUXot5z56UhRSQivroaJEfGzI\"",
+    "mtime": "2025-01-16T10:44:17.032Z",
+    "size": 59868,
+    "path": "../public/projects/assetto-corsa-event/gt3-grand-prix.webp"
   },
   "/projects/assetto-corsa-event/server.webp": {
     "type": "image/webp",
@@ -6806,12 +6813,75 @@ const assets = {
     "size": 26506,
     "path": "../public/projects/assetto-corsa-event/server.webp"
   },
+  "/projects/atelier-sophie-sylvestre/contact.webp": {
+    "type": "image/webp",
+    "etag": "\"5362-PtflqJwPVM9JGDcGl3/XhAaWOc0\"",
+    "mtime": "2025-01-16T15:08:28.763Z",
+    "size": 21346,
+    "path": "../public/projects/atelier-sophie-sylvestre/contact.webp"
+  },
+  "/projects/atelier-sophie-sylvestre/gallery.webp": {
+    "type": "image/webp",
+    "etag": "\"1036c-7DoY/CagjQhAuQM171ej0whzFHg\"",
+    "mtime": "2025-01-16T15:08:44.386Z",
+    "size": 66412,
+    "path": "../public/projects/atelier-sophie-sylvestre/gallery.webp"
+  },
+  "/projects/atelier-sophie-sylvestre/home.webp": {
+    "type": "image/webp",
+    "etag": "\"7096-suU2TETJZJRIOI7XC5p+ZuK91Zk\"",
+    "mtime": "2025-01-15T13:04:13.131Z",
+    "size": 28822,
+    "path": "../public/projects/atelier-sophie-sylvestre/home.webp"
+  },
+  "/projects/atelier-sophie-sylvestre/interventions.webp": {
+    "type": "image/webp",
+    "etag": "\"ebf2-c3QLExjKJT2cde9whlM2LLQ/nRg\"",
+    "mtime": "2025-01-16T15:09:01.324Z",
+    "size": 60402,
+    "path": "../public/projects/atelier-sophie-sylvestre/interventions.webp"
+  },
+  "/projects/atelier-sophie-sylvestre/studies.webp": {
+    "type": "image/webp",
+    "etag": "\"c27e-v4CQnpIWPG7ln+AALPQ72ut3eRE\"",
+    "mtime": "2025-01-16T15:09:30.097Z",
+    "size": 49790,
+    "path": "../public/projects/atelier-sophie-sylvestre/studies.webp"
+  },
+  "/projects/finalyzing/demo.mp4": {
+    "type": "video/mp4",
+    "etag": "\"5ed17a8-mZlnmN5Bqve3wITDh9pyNLDANds\"",
+    "mtime": "2024-11-24T23:52:40.441Z",
+    "size": 99424168,
+    "path": "../public/projects/finalyzing/demo.mp4"
+  },
   "/projects/finalyzing/home.webp": {
     "type": "image/webp",
     "etag": "\"a156-eJR5FVcSHZ4Tr8RCTFWzpacqViM\"",
     "mtime": "2024-12-09T19:05:24.158Z",
     "size": 41302,
     "path": "../public/projects/finalyzing/home.webp"
+  },
+  "/projects/finalyzing/macro.webp": {
+    "type": "image/webp",
+    "etag": "\"163fa-qRYrlGDjaNgc4wA71hLu7Sk2FDU\"",
+    "mtime": "2025-01-16T15:29:03.912Z",
+    "size": 91130,
+    "path": "../public/projects/finalyzing/macro.webp"
+  },
+  "/projects/finalyzing/markets.webp": {
+    "type": "image/webp",
+    "etag": "\"19bbe-CYDvepKHnfzSJI5eo4xJojh/gLE\"",
+    "mtime": "2025-01-16T15:28:47.212Z",
+    "size": 105406,
+    "path": "../public/projects/finalyzing/markets.webp"
+  },
+  "/projects/finalyzing/portfolios.webp": {
+    "type": "image/webp",
+    "etag": "\"14db2-oKJVysd4O18O7NgMWQDOybRW2Vg\"",
+    "mtime": "2025-01-16T15:29:17.484Z",
+    "size": 85426,
+    "path": "../public/projects/finalyzing/portfolios.webp"
   },
   "/projects/grossify/home.webp": {
     "type": "image/webp",
@@ -6820,12 +6890,12 @@ const assets = {
     "size": 41584,
     "path": "../public/projects/grossify/home.webp"
   },
-  "/projects/neurastock/benefit.webp": {
+  "/_ipx/f_webp/portrait.webp": {
     "type": "image/webp",
-    "etag": "\"7fde-wcy+MxLF143dUnF1veC+bDMrnMs\"",
-    "mtime": "2024-12-10T22:00:23.840Z",
-    "size": 32734,
-    "path": "../public/projects/neurastock/benefit.webp"
+    "etag": "\"164a2-/W3HE0wZ0wY3gWBYjmYU6uNCnm8\"",
+    "mtime": "2025-01-19T17:06:04.118Z",
+    "size": 91298,
+    "path": "../public/_ipx/f_webp/portrait.webp"
   },
   "/projects/mysh/demo.webp": {
     "type": "image/webp",
@@ -6834,82 +6904,89 @@ const assets = {
     "size": 34304,
     "path": "../public/projects/mysh/demo.webp"
   },
-  "/_ipx/f_webp/portrait.webp": {
-    "type": "image/webp",
-    "etag": "\"164a2-/W3HE0wZ0wY3gWBYjmYU6uNCnm8\"",
-    "mtime": "2025-01-01T17:35:24.766Z",
-    "size": 91298,
-    "path": "../public/_ipx/f_webp/portrait.webp"
-  },
   "/_nuxt/builds/latest.json": {
     "type": "application/json",
-    "etag": "\"47-zn+8Tlqwrz4dm8vLByDZ1Lhv6cw\"",
-    "mtime": "2025-01-01T17:35:24.860Z",
+    "etag": "\"47-Ty8MXHOxEgs0tQDdyy76kmVYDBc\"",
+    "mtime": "2025-01-19T17:06:04.195Z",
     "size": 71,
     "path": "../public/_nuxt/builds/latest.json"
   },
-  "/api/_content/query/0CgxMh2nDn.1735752891913.json": {
+  "/projects/neurastock/benefit.webp": {
+    "type": "image/webp",
+    "etag": "\"7fde-wcy+MxLF143dUnF1veC+bDMrnMs\"",
+    "mtime": "2024-12-10T22:00:23.840Z",
+    "size": 32734,
+    "path": "../public/projects/neurastock/benefit.webp"
+  },
+  "/api/_content/query/0CgxMh2nDn.1737306321073.json": {
     "type": "application/json",
-    "etag": "\"1679-mZ7sAdf8FQ2/EmqSV2ee7n5jjzY\"",
-    "mtime": "2025-01-01T17:35:24.566Z",
-    "size": 5753,
-    "path": "../public/api/_content/query/0CgxMh2nDn.1735752891913.json"
+    "etag": "\"277b-6EKkggqKxLhNYh8S1otRPwcffB4\"",
+    "mtime": "2025-01-19T17:06:03.912Z",
+    "size": 10107,
+    "path": "../public/api/_content/query/0CgxMh2nDn.1737306321073.json"
   },
   "/_ipx/f_webp/studies/aragon.webp": {
     "type": "image/webp",
     "etag": "\"9eae-Nfy9Nd2d6UaVal2LiM/3tH/NDEY\"",
-    "mtime": "2025-01-01T17:35:24.768Z",
+    "mtime": "2025-01-19T17:06:04.120Z",
     "size": 40622,
     "path": "../public/_ipx/f_webp/studies/aragon.webp"
   },
   "/_ipx/f_webp/studies/epitech.webp": {
     "type": "image/webp",
     "etag": "\"9cbe-pWvD+B+E63nieduIZoFBhSJNCLs\"",
-    "mtime": "2025-01-01T17:35:24.769Z",
+    "mtime": "2025-01-19T17:06:04.121Z",
     "size": 40126,
     "path": "../public/_ipx/f_webp/studies/epitech.webp"
   },
-  "/_nuxt/builds/meta/e1ed8870-d942-4dc0-b328-a99e3051e20f.json": {
+  "/_nuxt/builds/meta/5592fff9-cf94-4208-8225-68f64db78121.json": {
     "type": "application/json",
-    "etag": "\"a1-9t2SsbdywX3Mg0j6JZrgGfaV87E\"",
-    "mtime": "2025-01-01T17:35:24.861Z",
+    "etag": "\"a1-Pydir8rzrMnWLGIhl79ZbGJHanE\"",
+    "mtime": "2025-01-19T17:06:04.196Z",
     "size": 161,
-    "path": "../public/_nuxt/builds/meta/e1ed8870-d942-4dc0-b328-a99e3051e20f.json"
+    "path": "../public/_nuxt/builds/meta/5592fff9-cf94-4208-8225-68f64db78121.json"
   },
-  "/_ipx/_/projects/assetto-corsa-event/server.webp": {
+  "/_ipx/_/projects/assetto-corsa-event/gt3-grand-prix.webp": {
     "type": "image/webp",
-    "etag": "\"62bc-efia0v4NMQmEcUP7olc7YTSUR/U\"",
-    "mtime": "2025-01-01T17:35:24.766Z",
-    "size": 25276,
-    "path": "../public/_ipx/_/projects/assetto-corsa-event/server.webp"
+    "etag": "\"e252-d40gnHB6keCaOr9tS5ISzEVUWg8\"",
+    "mtime": "2025-01-19T17:06:04.188Z",
+    "size": 57938,
+    "path": "../public/_ipx/_/projects/assetto-corsa-event/gt3-grand-prix.webp"
+  },
+  "/_ipx/_/projects/atelier-sophie-sylvestre/home.webp": {
+    "type": "image/webp",
+    "etag": "\"6ca8-jR7HF8AuiuugLqy0OjDou9H8TYg\"",
+    "mtime": "2025-01-19T17:06:04.119Z",
+    "size": 27816,
+    "path": "../public/_ipx/_/projects/atelier-sophie-sylvestre/home.webp"
   },
   "/_ipx/_/projects/finalyzing/home.webp": {
     "type": "image/webp",
     "etag": "\"9f26-Ty9EoSdbv0VaP/0sl/HFZ0LaQhU\"",
-    "mtime": "2025-01-01T17:35:24.797Z",
+    "mtime": "2025-01-19T17:06:04.170Z",
     "size": 40742,
     "path": "../public/_ipx/_/projects/finalyzing/home.webp"
   },
   "/_ipx/_/projects/grossify/home.webp": {
     "type": "image/webp",
     "etag": "\"9a8c-9yXBn8JlprTGTWeQo615sm1zBBM\"",
-    "mtime": "2025-01-01T17:35:24.784Z",
+    "mtime": "2025-01-19T17:06:04.120Z",
     "size": 39564,
     "path": "../public/_ipx/_/projects/grossify/home.webp"
-  },
-  "/_ipx/_/projects/neurastock/benefit.webp": {
-    "type": "image/webp",
-    "etag": "\"7940-LURccG5EYYsHXaZ/n+lV5pZmpY0\"",
-    "mtime": "2025-01-01T17:35:24.853Z",
-    "size": 31040,
-    "path": "../public/_ipx/_/projects/neurastock/benefit.webp"
   },
   "/_ipx/_/projects/mysh/demo.webp": {
     "type": "image/webp",
     "etag": "\"8442-VlguL9iP3UithHbaffBmfYk2uTg\"",
-    "mtime": "2025-01-01T17:35:24.769Z",
+    "mtime": "2025-01-19T17:06:04.122Z",
     "size": 33858,
     "path": "../public/_ipx/_/projects/mysh/demo.webp"
+  },
+  "/_ipx/_/projects/neurastock/benefit.webp": {
+    "type": "image/webp",
+    "etag": "\"7940-LURccG5EYYsHXaZ/n+lV5pZmpY0\"",
+    "mtime": "2025-01-19T17:06:04.121Z",
+    "size": 31040,
+    "path": "../public/_ipx/_/projects/neurastock/benefit.webp"
   }
 };
 
@@ -7141,7 +7218,7 @@ const collections = {
   'heroicons': () => import('./_/icons.mjs').then(m => m.default),
   'simple-icons': () => import('./_/icons2.mjs').then(m => m.default),
   'vscode-icons': () => import('./_/icons3.mjs').then(m => m.default),
-  'my-icon': () => ({"prefix":"my-icon","icons":{"ara":{"width":370.44,"height":126.45,"body":"<defs><style>.cls-1{fill:#fff}</style></defs><path class=\"cls-1\" d=\"M109.77 28.6h8.06v29.27h14.49v6.32h-22.55V28.6zM136.32 57c0-6.08 5.57-8.37 13.54-8.37h2.93v-1c0-3.09-.94-4.78-4.23-4.78-2.84 0-4.13 1.44-4.43 3.68h-6.82c.45-6.17 5.33-8.91 11.7-8.91s10.9 2.59 10.9 9.66v17h-7v-3.22c-1.49 2.09-3.78 3.68-7.86 3.68-4.73 0-8.71-2.29-8.71-7.76m16.47-1.89V52.9H150c-4.19 0-6.62.89-6.62 3.68 0 1.89 1.14 3.13 3.78 3.13 3.18 0 5.62-1.74 5.62-4.62M176.88 28.6h12.75c8.41 0 13.74 3.44 13.74 10.81v.19c0 5.38-3.14 8.22-7.32 9.46l9.41 15.14h-8.57l-8.51-13.74h-3.48V64.2h-8zM189.43 45c4 0 6.07-1.69 6.07-5.13v-.2c0-3.63-2.19-4.87-6.07-4.87h-4.53V45zM207.94 51.5v-.4c0-8.21 5.83-13.54 13.39-13.54 6.72 0 12.69 3.94 12.69 13.25v2h-18.76c.2 4.34 2.54 6.82 6.47 6.82 3.33 0 5-1.44 5.42-3.63H234c-.84 5.63-5.32 8.76-12.44 8.76-7.86 0-13.59-4.93-13.59-13.24M227 48.37c-.24-3.94-2.23-5.83-5.67-5.83-3.24 0-5.42 2.14-6 5.83zm-5.87-21.66h7.57l-5.18 7.92h-5.23zM238.39 64.74h7.17c.44 2.29 2.09 3.78 5.77 3.78 4.38 0 6.57-2.28 6.57-6.37v-3.93a9.76 9.76 0 01-8.36 4.83c-6.32 0-11.35-4.73-11.35-12.44v-.35c0-7.47 5-12.7 11.45-12.7 4.23 0 6.77 1.85 8.26 4.48v-3.88h7.17v24c-.05 7.72-5.18 11.65-13.74 11.65s-12.24-3.68-12.94-9.06m19.71-14.24v-.35c0-4.43-2.34-7.12-6.27-7.12s-6.27 2.89-6.27 7.17v.4c0 4.33 2.54 7 6.12 7 3.78 0 6.42-2.68 6.42-7.11M271.61 30.7a4.11 4.11 0 114.08 3.93 3.95 3.95 0 01-4.08-3.93m.55 7.46h7.16v26h-7.16zM284.79 51.45v-.4c0-8.16 5.92-13.49 13.74-13.49s13.69 5.23 13.69 13.34v.4c0 8.22-5.93 13.44-13.74 13.44s-13.69-5.17-13.69-13.29m20.11-.1V51c0-5-2.34-8-6.37-8s-6.37 2.89-6.37 7.86v.4c0 5 2.29 8 6.37 8s6.37-3 6.37-7.92M317.7 38.16h7.22v4.13c1.29-2.59 4.13-4.72 8.46-4.72 5.13 0 8.76 3.08 8.76 10v16.62h-7.21V48.66c0-3.53-1.4-5.22-4.58-5.22s-5.43 1.89-5.43 5.72v15h-7.22zM115.24 78.63h2.6l5.52 16.29h-2l-1.6-4.69h-6.72l-1.57 4.69h-1.87zm-1.61 10h5.65l-2.83-8.38zM124.8 90.55V83h1.9v7.46c0 2.09.89 3 2.75 3a3.14 3.14 0 003.29-3.26V83h1.89v11.92h-1.89V93a4.07 4.07 0 01-3.79 2.1c-2.37 0-4.15-1.3-4.15-4.58M136.4 83h2.05l3.53 10.01L145.47 83h1.96l-4.29 11.92h-2.41L136.4 83zM148 89.09v-.18c0-3.61 2.31-6.11 5.59-6.11 2.76 0 5.35 1.66 5.35 5.92v.62h-9c.09 2.71 1.39 4.22 3.82 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.77-2.37-5.77-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM161.26 83h1.89v2.14a4.17 4.17 0 013.92-2.34v1.78c-2.39.11-3.92.86-3.92 3.8v6.54h-1.89zM168.14 95.61h1.94c.27 1.36 1.41 2.07 3.44 2.07 2.35 0 3.83-1.12 3.83-3.67v-1.73a4.93 4.93 0 01-4 2.25 5.37 5.37 0 01-5.42-5.65v-.16a5.64 5.64 0 015.56-5.92 4.26 4.26 0 013.9 2.12V83h1.89v11.12c0 3.47-2.37 5.16-5.7 5.16-3.53 0-5.08-1.67-5.4-3.67m9.28-6.86v-.16c0-2.67-1.46-4.22-3.79-4.22s-3.78 1.75-3.78 4.26v.18c0 2.6 1.66 4.15 3.67 4.15 2.21 0 3.9-1.55 3.9-4.21M182.28 83h1.89v1.89A4.11 4.11 0 01188 82.8c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.13 3.13 0 00-3.33 3.26v7.22h-1.89zM194.42 89.09v-.18c0-3.61 2.3-6.11 5.58-6.11 2.76 0 5.36 1.66 5.36 5.92v.62h-9c.09 2.71 1.39 4.22 3.83 4.22 1.84 0 2.91-.69 3.16-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.76-2.37-5.76-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.55 3.44zM207.63 87.77h4.88v1.78h-4.88zM215.75 78.63h4.9c3.12 0 5.7 1.27 5.7 4.53v.09c0 2.69-1.8 4-4 4.45l5 7.22h-2.21l-4.85-7.09h-2.51v7.09h-2zm5 7.63c2.32 0 3.57-1 3.57-3v-.09c0-2.21-1.36-2.94-3.57-2.94h-3.06v6zM229.24 77.3h1.89v7.59A4.11 4.11 0 01235 82.8c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.14 3.14 0 00-3.33 3.26v7.22h-1.89zM241.34 89.06v-.18a5.86 5.86 0 1111.71 0V89a5.86 5.86 0 11-11.71 0m9.75 0v-.15c0-2.76-1.53-4.54-3.9-4.54s-3.89 1.78-3.89 4.51V89c0 2.72 1.48 4.5 3.89 4.5s3.9-1.81 3.9-4.5m-4.74-11.39h1.71L250.5 81h-1.39l-1.94-1.71-1.94 1.71h-1.34zM255.37 83h1.89v1.89a4.11 4.11 0 013.83-2.09c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.13 3.13 0 00-3.33 3.26v7.22h-1.89zM267.51 89.09v-.18c0-3.61 2.3-6.11 5.58-6.11 2.76 0 5.36 1.66 5.36 5.92v.62h-9c.09 2.71 1.39 4.22 3.82 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.76-2.37-5.76-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM280.72 87.77h4.88v1.78h-4.88zM292.69 78.63h2.59l5.52 16.29h-2l-1.6-4.69h-6.72L289 94.92h-1.87zm-1.62 10h5.65l-2.83-8.38zM302.81 77.3h1.91v17.62h-1.91zM307.75 83h1.9v2a4.9 4.9 0 014-2.21c3.12 0 5.43 2.28 5.43 6V89c0 3.65-2.15 6.16-5.43 6.16a4.5 4.5 0 01-4-2.17v6.11h-1.9zm9.39 6.06v-.18c0-3-1.66-4.51-3.66-4.51-2.22 0-3.9 1.46-3.9 4.51v.18c0 3.06 1.59 4.5 3.92 4.5s3.64-1.6 3.64-4.5M320.69 89.09v-.18c0-3.61 2.3-6.11 5.59-6.11 2.75 0 5.35 1.66 5.35 5.92v.62h-9c.09 2.71 1.39 4.22 3.83 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.77-2.37-5.77-6m9-1.28c-.19-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM333.1 91.25h1.84c.14 1.42.89 2.3 2.81 2.3s2.59-.61 2.59-1.89-.93-1.66-2.78-2c-3.1-.57-4.15-1.44-4.15-3.51s2.17-3.35 4-3.35c2.14 0 4 .86 4.31 3.44h-1.83c-.27-1.3-1-1.87-2.5-1.87s-2.26.68-2.26 1.71.59 1.5 2.78 1.89c2.46.46 4.19 1 4.19 3.53 0 2.17-1.48 3.63-4.37 3.63s-4.56-1.44-4.67-3.88\"/><path d=\"M93.79 61.72a33.18 33.18 0 11-33.18-33.18 33.18 33.18 0 0133.18 33.18\" fill=\"#0096de\"/><path class=\"cls-1\" d=\"M65.73 42.52h-3.17l-7.49 12.86 3.17 1.84 5.9-10.14 12 20.59 3.17-1.84-13.58-23.31zM47.78 71.44h33.46v3.66H47.78z\"/><path class=\"cls-1\" d=\"M65.23 58.12a10.28 10.28 0 01-15.35.43h-3.26l-.14.23L38 73.25l3.16 1.85 6.14-10.51 1.31-2.24a13.92 13.92 0 0019.32-1.78z\"/>"},"epitech":{"width":1575,"height":392,"body":"<title>epiepi-svg</title>\n\t<style>\n\t\t.s0 { fill: #0091d3 } \n\t</style>\n\t<path id=\"Layer\" class=\"s0\" d=\"m38 365.4v-140.3c0-13.3-8.8-22.5-23.7-27q-1.7-0.6-3.5-1-1.8-0.5-3.6-0.8-1.8-0.3-3.6-0.5-1.8-0.2-3.6-0.3c22.4-0.8 38-12.5 38-29.5v-140.3c0-16.3 16.1-25.8 47.2-25.7l34.7 0.1v12.9h-6.8c-30.4-0.1-36.6 4.9-36.6 25.7v125.2c0 17.1-17.4 30-41 31.6 23.6 1.7 41 14.6 41 31.6v125.3c0 20.8 5.6 25.8 36.6 25.7h6.8v12.9h-34.7-0.6c-30.7 0-46.6-9.5-46.6-25.6zm1451.7 25.7l-34.8-0.1v-12.9h6.8c31.1 0 36.7-4.9 36.7-25.7v-125.3c0-17 17.4-29.9 41-31.6-23.6-1.6-41-14.5-41-31.6v-125.2c0-20.9-6.2-25.8-36.7-25.7h-6.8v-12.9l34.8-0.1c31-0.1 47.2 9.4 47.2 25.7v140.3c0 17 15.6 28.7 38 29.5q-1.8 0.1-3.6 0.3-1.9 0.2-3.6 0.5-1.8 0.3-3.6 0.8-1.8 0.4-3.5 0.9c-14.9 4.6-23.7 13.8-23.7 27.1v140.3c0 16.1-15.9 25.7-46.6 25.7zm-125.3-77.6v-93.6h-93.3v93.5h-50.1v-235.8h50.1v92.1h93.3v-92.1h50.1v235.8zm-242.1 0q-107.3 0-107.3-117.5v-1.1q1.1-117.3 107.7-117.2h81.6v50.1h-91.6c-3.4-0.2-6.9 0-10.2 0.6-3.4 0.6-6.7 1.6-9.8 3.1-3.1 1.4-6 3.2-8.7 5.3-2.7 2.2-5 4.6-7.1 7.3q-11.8 16.4-11.8 52.2v2.9q0 64.2 47.2 64.2h91.7v50.1zm-236.1 0q-4.5 0.2-9.1-0.2-4.5-0.3-9-1-4.5-0.8-8.8-2-4.4-1.2-8.7-2.9-3.3-1.3-6.5-3-3.2-1.7-6.2-3.8-3-2.1-5.7-4.4-2.7-2.4-5.2-5.1-2.2-2.5-4.2-5.2-2-2.7-3.7-5.6-1.6-3-3-6-1.3-3.1-2.3-6.3-1.1-3.2-1.8-6.5-0.8-3.3-1.3-6.6-0.5-3.3-0.8-6.7-0.3-3.4-0.3-6.7 0.1-1.8 0.1-3.5 0.1-1.8 0.3-3.5 0.1-1.7 0.4-3.4 0.2-1.7 0.5-3.5 0.3-1.7 0.7-3.5 0.4-1.8 1-3.5 0.5-1.7 1.2-3.4 0.6-1.7 1.4-3.4 0.7-1.5 1.6-3 0.9-1.6 1.9-3 0.9-1.4 2.1-2.8 1.1-1.4 2.3-2.6 1.2-1.3 2.6-2.4 1.4-1.1 2.9-2.1 1.5-0.9 3.1-1.7 1.6-0.8 3.3-1.3-3.3-1.5-6.3-3.6-2.9-2-5.5-4.6-2.5-2.7-4.5-5.7-2-3-3.3-6.4-1.4-3.8-2.5-7.7-1-3.9-1.7-7.9-0.7-4-1-8-0.3-4.1-0.2-8.1c-0.3-4.5 0-9 0.7-13.4 0.8-4.5 2-8.8 3.7-13 1.7-4.1 3.8-8.1 6.4-11.8 2.6-3.6 5.6-7 8.9-10q6-4.6 12.7-8.1 6.8-3.4 14-5.6 7.2-2.2 14.8-3 7.5-0.9 15-0.4h117.3v50.2h-123.4q-2 0-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.2-2.9 2.7c-1.9 2-3.3 4.3-4.3 6.8-1 2.5-1.6 5.2-1.6 7.9 0 2.7 0.4 5.4 1.4 8 0.9 2.5 2.3 4.8 4.1 6.9q1.5 1.5 3.2 2.7 1.7 1.2 3.6 2 1.9 0.7 4 1.1 2 0.4 4.1 0.3h123v50.1h-123.4q-2 0-3.9 0.4-2 0.5-3.8 1.3-1.8 0.8-3.5 1.9-1.6 1.2-2.9 2.7-1.5 1.6-2.6 3.4-1.1 1.8-1.9 3.8-0.8 2-1.1 4.2-0.4 2.1-0.3 4.2 0 2.1 0.3 4.2 0.4 2.1 1.1 4 0.8 2 1.9 3.8 1.1 1.7 2.6 3.2 1.4 1.6 3 2.7 1.7 1.2 3.6 2 1.8 0.9 3.8 1.3 2 0.3 4.1 0.3h123v50.2zm-191.1 0v-185.7h-55.4v-50.2h157.7v50.2h-52.2v185.7zm-122.5 0v-235.9h50.1v235.8zm-207.3 0v-72.7c-0.3-4.9-0.1-9.8 0.6-14.6 0.7-4.8 1.9-9.6 3.7-14.1 1.7-4.6 3.9-8.9 6.6-13 2.7-4.1 5.8-7.8 9.3-11.2 3.9-3.2 8-6 12.4-8.4 4.4-2.4 9-4.4 13.7-5.9 4.8-1.6 9.7-2.6 14.6-3.3 5-0.6 10-0.8 14.9-0.5h47.2q2 0 4-0.4 2-0.3 3.9-1.1 1.9-0.8 3.5-2 1.7-1.1 3.1-2.6 1.4-1.5 2.6-3.2 1.1-1.7 1.8-3.6 0.8-1.9 1.2-3.9 0.3-2 0.3-4 0-2.1-0.4-4.1-0.3-2-1.1-3.9-0.7-2-1.9-3.7-1.1-1.7-2.5-3.2-1.3-1.5-3-2.7-1.6-1.1-3.4-2-1.8-0.8-3.8-1.2-1.9-0.4-3.9-0.4h-123.4v-50.1h117.3q4.4-0.1 8.8 0.2 4.4 0.3 8.7 1 4.4 0.7 8.6 1.9 4.3 1.1 8.4 2.6 3.4 1.3 6.6 2.9 3.2 1.6 6.2 3.5 3 2 5.7 4.2 2.8 2.3 5.3 4.8 2.3 2.4 4.4 5.1 2 2.6 3.7 5.5 1.7 2.8 3.1 5.8 1.4 3.1 2.4 6.2 1.1 3.3 1.9 6.7 0.8 3.4 1.4 6.8 0.5 3.4 0.8 6.9 0.2 3.4 0.2 6.9 0 3.3-0.3 6.6-0.2 3.3-0.7 6.5-0.5 3.3-1.3 6.5-0.8 3.2-1.8 6.4-1 3.1-2.4 6.2-1.3 3-3 5.9-1.7 2.8-3.6 5.5-2 2.7-4.2 5.1-2.5 2.7-5.3 5-2.7 2.4-5.7 4.4-2.9 2.1-6.1 3.8-3.2 1.7-6.6 3.1-4.1 1.7-8.5 2.9-4.3 1.3-8.8 2.1-4.4 0.7-8.9 1.1-4.5 0.3-9 0.2h-48.3q-1.9 0-3.8 0.4-1.9 0.4-3.7 1.2-1.8 0.9-3.3 2.1-1.5 1.2-2.8 2.7-1.3 1.6-2.3 3.4-1 1.8-1.7 3.7-0.7 1.9-1 3.9-0.4 2.1-0.3 4.1v72.1zm-128.6 0q-4.5 0.1-9-0.2-4.6-0.3-9.1-1.1-4.4-0.8-8.8-2-4.4-1.2-8.7-2.8-3.3-1.4-6.5-3.1-3.2-1.7-6.2-3.8-3-2-5.7-4.4-2.7-2.4-5.2-5-2.2-2.5-4.2-5.2-2-2.8-3.6-5.7-1.7-2.9-3-6-1.4-3-2.4-6.2-1-3.3-1.8-6.5-0.8-3.3-1.3-6.7-0.5-3.3-0.8-6.6-0.2-3.4-0.2-6.8 0-1.7 0.1-3.5 0.1-1.7 0.2-3.4 0.2-1.7 0.4-3.5 0.2-1.7 0.5-3.4 0.3-1.8 0.8-3.5 0.4-1.8 0.9-3.5 0.5-1.8 1.2-3.5 0.7-1.6 1.4-3.3 0.8-1.6 1.6-3.1 0.9-1.5 1.9-2.9 1-1.5 2.1-2.8 1.1-1.4 2.3-2.7 1.2-1.2 2.6-2.4 1.4-1.1 2.9-2 1.5-1 3.2-1.7 1.6-0.8 3.3-1.4-3.3-1.4-6.3-3.5-3-2.1-5.5-4.7-2.6-2.6-4.5-5.6-2-3.1-3.4-6.4-1.4-3.8-2.5-7.7-1-3.9-1.7-7.9-0.7-4-1-8.1-0.3-4-0.2-8.1c-0.2-4.4 0-8.9 0.7-13.4 0.8-4.4 2-8.7 3.7-12.9 1.7-4.2 3.9-8.1 6.4-11.8 2.6-3.7 5.6-7.1 8.9-10.1q6-4.6 12.8-8 6.7-3.4 13.9-5.6 7.2-2.2 14.8-3.1 7.5-0.8 15-0.3h117.3v50.2h-123.4q-2-0.1-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.1-2.9 2.6c-1.9 2-3.3 4.3-4.3 6.8-1 2.6-1.6 5.2-1.6 8 0 2.7 0.4 5.4 1.4 7.9 0.9 2.5 2.3 4.9 4.1 6.9q1.4 1.5 3.2 2.7 1.7 1.2 3.6 2 1.9 0.8 4 1.1 2 0.4 4.1 0.3h123v50.2h-123.4q-2 0-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.2-2.9 2.7-1.5 1.5-2.6 3.3-1.1 1.9-1.9 3.9-0.8 2-1.1 4.1-0.4 2.1-0.3 4.3-0.1 2.1 0.3 4.1 0.4 2.1 1.1 4.1 0.8 1.9 1.9 3.7 1.1 1.8 2.6 3.3 1.4 1.5 3 2.7 1.7 1.2 3.6 2 1.8 0.8 3.8 1.2 2 0.4 4.1 0.4h123v50.1z\"/>"}}}),
+  'my-icon': () => ({"prefix":"my-icon","icons":{"ara":{"width":370.44,"height":126.45,"body":"<defs><style>.cls-1{fill:#fff}</style></defs><path class=\"cls-1\" d=\"M109.77 28.6h8.06v29.27h14.49v6.32h-22.55V28.6zM136.32 57c0-6.08 5.57-8.37 13.54-8.37h2.93v-1c0-3.09-.94-4.78-4.23-4.78-2.84 0-4.13 1.44-4.43 3.68h-6.82c.45-6.17 5.33-8.91 11.7-8.91s10.9 2.59 10.9 9.66v17h-7v-3.22c-1.49 2.09-3.78 3.68-7.86 3.68-4.73 0-8.71-2.29-8.71-7.76m16.47-1.89V52.9H150c-4.19 0-6.62.89-6.62 3.68 0 1.89 1.14 3.13 3.78 3.13 3.18 0 5.62-1.74 5.62-4.62M176.88 28.6h12.75c8.41 0 13.74 3.44 13.74 10.81v.19c0 5.38-3.14 8.22-7.32 9.46l9.41 15.14h-8.57l-8.51-13.74h-3.48V64.2h-8zM189.43 45c4 0 6.07-1.69 6.07-5.13v-.2c0-3.63-2.19-4.87-6.07-4.87h-4.53V45zM207.94 51.5v-.4c0-8.21 5.83-13.54 13.39-13.54 6.72 0 12.69 3.94 12.69 13.25v2h-18.76c.2 4.34 2.54 6.82 6.47 6.82 3.33 0 5-1.44 5.42-3.63H234c-.84 5.63-5.32 8.76-12.44 8.76-7.86 0-13.59-4.93-13.59-13.24M227 48.37c-.24-3.94-2.23-5.83-5.67-5.83-3.24 0-5.42 2.14-6 5.83zm-5.87-21.66h7.57l-5.18 7.92h-5.23zM238.39 64.74h7.17c.44 2.29 2.09 3.78 5.77 3.78 4.38 0 6.57-2.28 6.57-6.37v-3.93a9.76 9.76 0 01-8.36 4.83c-6.32 0-11.35-4.73-11.35-12.44v-.35c0-7.47 5-12.7 11.45-12.7 4.23 0 6.77 1.85 8.26 4.48v-3.88h7.17v24c-.05 7.72-5.18 11.65-13.74 11.65s-12.24-3.68-12.94-9.06m19.71-14.24v-.35c0-4.43-2.34-7.12-6.27-7.12s-6.27 2.89-6.27 7.17v.4c0 4.33 2.54 7 6.12 7 3.78 0 6.42-2.68 6.42-7.11M271.61 30.7a4.11 4.11 0 114.08 3.93 3.95 3.95 0 01-4.08-3.93m.55 7.46h7.16v26h-7.16zM284.79 51.45v-.4c0-8.16 5.92-13.49 13.74-13.49s13.69 5.23 13.69 13.34v.4c0 8.22-5.93 13.44-13.74 13.44s-13.69-5.17-13.69-13.29m20.11-.1V51c0-5-2.34-8-6.37-8s-6.37 2.89-6.37 7.86v.4c0 5 2.29 8 6.37 8s6.37-3 6.37-7.92M317.7 38.16h7.22v4.13c1.29-2.59 4.13-4.72 8.46-4.72 5.13 0 8.76 3.08 8.76 10v16.62h-7.21V48.66c0-3.53-1.4-5.22-4.58-5.22s-5.43 1.89-5.43 5.72v15h-7.22zM115.24 78.63h2.6l5.52 16.29h-2l-1.6-4.69h-6.72l-1.57 4.69h-1.87zm-1.61 10h5.65l-2.83-8.38zM124.8 90.55V83h1.9v7.46c0 2.09.89 3 2.75 3a3.14 3.14 0 003.29-3.26V83h1.89v11.92h-1.89V93a4.07 4.07 0 01-3.79 2.1c-2.37 0-4.15-1.3-4.15-4.58M136.4 83h2.05l3.53 10.01L145.47 83h1.96l-4.29 11.92h-2.41L136.4 83zM148 89.09v-.18c0-3.61 2.31-6.11 5.59-6.11 2.76 0 5.35 1.66 5.35 5.92v.62h-9c.09 2.71 1.39 4.22 3.82 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.77-2.37-5.77-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM161.26 83h1.89v2.14a4.17 4.17 0 013.92-2.34v1.78c-2.39.11-3.92.86-3.92 3.8v6.54h-1.89zM168.14 95.61h1.94c.27 1.36 1.41 2.07 3.44 2.07 2.35 0 3.83-1.12 3.83-3.67v-1.73a4.93 4.93 0 01-4 2.25 5.37 5.37 0 01-5.42-5.65v-.16a5.64 5.64 0 015.56-5.92 4.26 4.26 0 013.9 2.12V83h1.89v11.12c0 3.47-2.37 5.16-5.7 5.16-3.53 0-5.08-1.67-5.4-3.67m9.28-6.86v-.16c0-2.67-1.46-4.22-3.79-4.22s-3.78 1.75-3.78 4.26v.18c0 2.6 1.66 4.15 3.67 4.15 2.21 0 3.9-1.55 3.9-4.21M182.28 83h1.89v1.89A4.11 4.11 0 01188 82.8c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.13 3.13 0 00-3.33 3.26v7.22h-1.89zM194.42 89.09v-.18c0-3.61 2.3-6.11 5.58-6.11 2.76 0 5.36 1.66 5.36 5.92v.62h-9c.09 2.71 1.39 4.22 3.83 4.22 1.84 0 2.91-.69 3.16-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.76-2.37-5.76-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.55 3.44zM207.63 87.77h4.88v1.78h-4.88zM215.75 78.63h4.9c3.12 0 5.7 1.27 5.7 4.53v.09c0 2.69-1.8 4-4 4.45l5 7.22h-2.21l-4.85-7.09h-2.51v7.09h-2zm5 7.63c2.32 0 3.57-1 3.57-3v-.09c0-2.21-1.36-2.94-3.57-2.94h-3.06v6zM229.24 77.3h1.89v7.59A4.11 4.11 0 01235 82.8c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.14 3.14 0 00-3.33 3.26v7.22h-1.89zM241.34 89.06v-.18a5.86 5.86 0 1111.71 0V89a5.86 5.86 0 11-11.71 0m9.75 0v-.15c0-2.76-1.53-4.54-3.9-4.54s-3.89 1.78-3.89 4.51V89c0 2.72 1.48 4.5 3.89 4.5s3.9-1.81 3.9-4.5m-4.74-11.39h1.71L250.5 81h-1.39l-1.94-1.71-1.94 1.71h-1.34zM255.37 83h1.89v1.89a4.11 4.11 0 013.83-2.09c2.46 0 4.19 1.34 4.19 4.81v7.31h-1.89v-7.45c0-2.1-.89-3-2.8-3a3.13 3.13 0 00-3.33 3.26v7.22h-1.89zM267.51 89.09v-.18c0-3.61 2.3-6.11 5.58-6.11 2.76 0 5.36 1.66 5.36 5.92v.62h-9c.09 2.71 1.39 4.22 3.82 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.76-2.37-5.76-6m9-1.28c-.18-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM280.72 87.77h4.88v1.78h-4.88zM292.69 78.63h2.59l5.52 16.29h-2l-1.6-4.69h-6.72L289 94.92h-1.87zm-1.62 10h5.65l-2.83-8.38zM302.81 77.3h1.91v17.62h-1.91zM307.75 83h1.9v2a4.9 4.9 0 014-2.21c3.12 0 5.43 2.28 5.43 6V89c0 3.65-2.15 6.16-5.43 6.16a4.5 4.5 0 01-4-2.17v6.11h-1.9zm9.39 6.06v-.18c0-3-1.66-4.51-3.66-4.51-2.22 0-3.9 1.46-3.9 4.51v.18c0 3.06 1.59 4.5 3.92 4.5s3.64-1.6 3.64-4.5M320.69 89.09v-.18c0-3.61 2.3-6.11 5.59-6.11 2.75 0 5.35 1.66 5.35 5.92v.62h-9c.09 2.71 1.39 4.22 3.83 4.22 1.85 0 2.92-.69 3.17-2.08h1.89c-.41 2.39-2.39 3.65-5.08 3.65-3.37 0-5.77-2.37-5.77-6m9-1.28c-.19-2.46-1.46-3.44-3.42-3.44s-3.24 1.32-3.56 3.44zM333.1 91.25h1.84c.14 1.42.89 2.3 2.81 2.3s2.59-.61 2.59-1.89-.93-1.66-2.78-2c-3.1-.57-4.15-1.44-4.15-3.51s2.17-3.35 4-3.35c2.14 0 4 .86 4.31 3.44h-1.83c-.27-1.3-1-1.87-2.5-1.87s-2.26.68-2.26 1.71.59 1.5 2.78 1.89c2.46.46 4.19 1 4.19 3.53 0 2.17-1.48 3.63-4.37 3.63s-4.56-1.44-4.67-3.88\"/><path d=\"M93.79 61.72a33.18 33.18 0 11-33.18-33.18 33.18 33.18 0 0133.18 33.18\" fill=\"#0096de\"/><path class=\"cls-1\" d=\"M65.73 42.52h-3.17l-7.49 12.86 3.17 1.84 5.9-10.14 12 20.59 3.17-1.84-13.58-23.31zM47.78 71.44h33.46v3.66H47.78z\"/><path class=\"cls-1\" d=\"M65.23 58.12a10.28 10.28 0 01-15.35.43h-3.26l-.14.23L38 73.25l3.16 1.85 6.14-10.51 1.31-2.24a13.92 13.92 0 0019.32-1.78z\"/>"},"epitech":{"width":1575,"height":392,"body":"<title>epiepi-svg</title>\n\t<style>\n\t\t.s0 { fill: #0091d3 } \n\t</style>\n\t<path id=\"Layer\" class=\"s0\" d=\"m38 365.4v-140.3c0-13.3-8.8-22.5-23.7-27q-1.7-0.6-3.5-1-1.8-0.5-3.6-0.8-1.8-0.3-3.6-0.5-1.8-0.2-3.6-0.3c22.4-0.8 38-12.5 38-29.5v-140.3c0-16.3 16.1-25.8 47.2-25.7l34.7 0.1v12.9h-6.8c-30.4-0.1-36.6 4.9-36.6 25.7v125.2c0 17.1-17.4 30-41 31.6 23.6 1.7 41 14.6 41 31.6v125.3c0 20.8 5.6 25.8 36.6 25.7h6.8v12.9h-34.7-0.6c-30.7 0-46.6-9.5-46.6-25.6zm1451.7 25.7l-34.8-0.1v-12.9h6.8c31.1 0 36.7-4.9 36.7-25.7v-125.3c0-17 17.4-29.9 41-31.6-23.6-1.6-41-14.5-41-31.6v-125.2c0-20.9-6.2-25.8-36.7-25.7h-6.8v-12.9l34.8-0.1c31-0.1 47.2 9.4 47.2 25.7v140.3c0 17 15.6 28.7 38 29.5q-1.8 0.1-3.6 0.3-1.9 0.2-3.6 0.5-1.8 0.3-3.6 0.8-1.8 0.4-3.5 0.9c-14.9 4.6-23.7 13.8-23.7 27.1v140.3c0 16.1-15.9 25.7-46.6 25.7zm-125.3-77.6v-93.6h-93.3v93.5h-50.1v-235.8h50.1v92.1h93.3v-92.1h50.1v235.8zm-242.1 0q-107.3 0-107.3-117.5v-1.1q1.1-117.3 107.7-117.2h81.6v50.1h-91.6c-3.4-0.2-6.9 0-10.2 0.6-3.4 0.6-6.7 1.6-9.8 3.1-3.1 1.4-6 3.2-8.7 5.3-2.7 2.2-5 4.6-7.1 7.3q-11.8 16.4-11.8 52.2v2.9q0 64.2 47.2 64.2h91.7v50.1zm-236.1 0q-4.5 0.2-9.1-0.2-4.5-0.3-9-1-4.5-0.8-8.8-2-4.4-1.2-8.7-2.9-3.3-1.3-6.5-3-3.2-1.7-6.2-3.8-3-2.1-5.7-4.4-2.7-2.4-5.2-5.1-2.2-2.5-4.2-5.2-2-2.7-3.7-5.6-1.6-3-3-6-1.3-3.1-2.3-6.3-1.1-3.2-1.8-6.5-0.8-3.3-1.3-6.6-0.5-3.3-0.8-6.7-0.3-3.4-0.3-6.7 0.1-1.8 0.1-3.5 0.1-1.8 0.3-3.5 0.1-1.7 0.4-3.4 0.2-1.7 0.5-3.5 0.3-1.7 0.7-3.5 0.4-1.8 1-3.5 0.5-1.7 1.2-3.4 0.6-1.7 1.4-3.4 0.7-1.5 1.6-3 0.9-1.6 1.9-3 0.9-1.4 2.1-2.8 1.1-1.4 2.3-2.6 1.2-1.3 2.6-2.4 1.4-1.1 2.9-2.1 1.5-0.9 3.1-1.7 1.6-0.8 3.3-1.3-3.3-1.5-6.3-3.6-2.9-2-5.5-4.6-2.5-2.7-4.5-5.7-2-3-3.3-6.4-1.4-3.8-2.5-7.7-1-3.9-1.7-7.9-0.7-4-1-8-0.3-4.1-0.2-8.1c-0.3-4.5 0-9 0.7-13.4 0.8-4.5 2-8.8 3.7-13 1.7-4.1 3.8-8.1 6.4-11.8 2.6-3.6 5.6-7 8.9-10q6-4.6 12.7-8.1 6.8-3.4 14-5.6 7.2-2.2 14.8-3 7.5-0.9 15-0.4h117.3v50.2h-123.4q-2 0-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.2-2.9 2.7c-1.9 2-3.3 4.3-4.3 6.8-1 2.5-1.6 5.2-1.6 7.9 0 2.7 0.4 5.4 1.4 8 0.9 2.5 2.3 4.8 4.1 6.9q1.5 1.5 3.2 2.7 1.7 1.2 3.6 2 1.9 0.7 4 1.1 2 0.4 4.1 0.3h123v50.1h-123.4q-2 0-3.9 0.4-2 0.5-3.8 1.3-1.8 0.8-3.5 1.9-1.6 1.2-2.9 2.7-1.5 1.6-2.6 3.4-1.1 1.8-1.9 3.8-0.8 2-1.1 4.2-0.4 2.1-0.3 4.2 0 2.1 0.3 4.2 0.4 2.1 1.1 4 0.8 2 1.9 3.8 1.1 1.7 2.6 3.2 1.4 1.6 3 2.7 1.7 1.2 3.6 2 1.8 0.9 3.8 1.3 2 0.3 4.1 0.3h123v50.2zm-191.1 0v-185.7h-55.4v-50.2h157.7v50.2h-52.2v185.7zm-122.5 0v-235.9h50.1v235.8zm-207.3 0v-72.7c-0.3-4.9-0.1-9.8 0.6-14.6 0.7-4.8 1.9-9.6 3.7-14.1 1.7-4.6 3.9-8.9 6.6-13 2.7-4.1 5.8-7.8 9.3-11.2 3.9-3.2 8-6 12.4-8.4 4.4-2.4 9-4.4 13.7-5.9 4.8-1.6 9.7-2.6 14.6-3.3 5-0.6 10-0.8 14.9-0.5h47.2q2 0 4-0.4 2-0.3 3.9-1.1 1.9-0.8 3.5-2 1.7-1.1 3.1-2.6 1.4-1.5 2.6-3.2 1.1-1.7 1.8-3.6 0.8-1.9 1.2-3.9 0.3-2 0.3-4 0-2.1-0.4-4.1-0.3-2-1.1-3.9-0.7-2-1.9-3.7-1.1-1.7-2.5-3.2-1.3-1.5-3-2.7-1.6-1.1-3.4-2-1.8-0.8-3.8-1.2-1.9-0.4-3.9-0.4h-123.4v-50.1h117.3q4.4-0.1 8.8 0.2 4.4 0.3 8.7 1 4.4 0.7 8.6 1.9 4.3 1.1 8.4 2.6 3.4 1.3 6.6 2.9 3.2 1.6 6.2 3.5 3 2 5.7 4.2 2.8 2.3 5.3 4.8 2.3 2.4 4.4 5.1 2 2.6 3.7 5.5 1.7 2.8 3.1 5.8 1.4 3.1 2.4 6.2 1.1 3.3 1.9 6.7 0.8 3.4 1.4 6.8 0.5 3.4 0.8 6.9 0.2 3.4 0.2 6.9 0 3.3-0.3 6.6-0.2 3.3-0.7 6.5-0.5 3.3-1.3 6.5-0.8 3.2-1.8 6.4-1 3.1-2.4 6.2-1.3 3-3 5.9-1.7 2.8-3.6 5.5-2 2.7-4.2 5.1-2.5 2.7-5.3 5-2.7 2.4-5.7 4.4-2.9 2.1-6.1 3.8-3.2 1.7-6.6 3.1-4.1 1.7-8.5 2.9-4.3 1.3-8.8 2.1-4.4 0.7-8.9 1.1-4.5 0.3-9 0.2h-48.3q-1.9 0-3.8 0.4-1.9 0.4-3.7 1.2-1.8 0.9-3.3 2.1-1.5 1.2-2.8 2.7-1.3 1.6-2.3 3.4-1 1.8-1.7 3.7-0.7 1.9-1 3.9-0.4 2.1-0.3 4.1v72.1zm-128.6 0q-4.5 0.1-9-0.2-4.6-0.3-9.1-1.1-4.4-0.8-8.8-2-4.4-1.2-8.7-2.8-3.3-1.4-6.5-3.1-3.2-1.7-6.2-3.8-3-2-5.7-4.4-2.7-2.4-5.2-5-2.2-2.5-4.2-5.2-2-2.8-3.6-5.7-1.7-2.9-3-6-1.4-3-2.4-6.2-1-3.3-1.8-6.5-0.8-3.3-1.3-6.7-0.5-3.3-0.8-6.6-0.2-3.4-0.2-6.8 0-1.7 0.1-3.5 0.1-1.7 0.2-3.4 0.2-1.7 0.4-3.5 0.2-1.7 0.5-3.4 0.3-1.8 0.8-3.5 0.4-1.8 0.9-3.5 0.5-1.8 1.2-3.5 0.7-1.6 1.4-3.3 0.8-1.6 1.6-3.1 0.9-1.5 1.9-2.9 1-1.5 2.1-2.8 1.1-1.4 2.3-2.7 1.2-1.2 2.6-2.4 1.4-1.1 2.9-2 1.5-1 3.2-1.7 1.6-0.8 3.3-1.4-3.3-1.4-6.3-3.5-3-2.1-5.5-4.7-2.6-2.6-4.5-5.6-2-3.1-3.4-6.4-1.4-3.8-2.5-7.7-1-3.9-1.7-7.9-0.7-4-1-8.1-0.3-4-0.2-8.1c-0.2-4.4 0-8.9 0.7-13.4 0.8-4.4 2-8.7 3.7-12.9 1.7-4.2 3.9-8.1 6.4-11.8 2.6-3.7 5.6-7.1 8.9-10.1q6-4.6 12.8-8 6.7-3.4 13.9-5.6 7.2-2.2 14.8-3.1 7.5-0.8 15-0.3h117.3v50.2h-123.4q-2-0.1-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.1-2.9 2.6c-1.9 2-3.3 4.3-4.3 6.8-1 2.6-1.6 5.2-1.6 8 0 2.7 0.4 5.4 1.4 7.9 0.9 2.5 2.3 4.9 4.1 6.9q1.4 1.5 3.2 2.7 1.7 1.2 3.6 2 1.9 0.8 4 1.1 2 0.4 4.1 0.3h123v50.2h-123.4q-2 0-3.9 0.4-2 0.4-3.8 1.2-1.8 0.8-3.5 2-1.6 1.2-2.9 2.7-1.5 1.5-2.6 3.3-1.1 1.9-1.9 3.9-0.8 2-1.1 4.1-0.4 2.1-0.3 4.3-0.1 2.1 0.3 4.1 0.4 2.1 1.1 4.1 0.8 1.9 1.9 3.7 1.1 1.8 2.6 3.3 1.4 1.5 3 2.7 1.7 1.2 3.6 2 1.8 0.8 3.8 1.2 2 0.4 4.1 0.4h123v50.1z\"/>"},"visiativ":{"width":1553,"height":268,"body":"<defs><clipPath clipPathUnits=\"userSpaceOnUse\" id=\"cp1\"><path d=\"m1552 1v267h-1552v-267z\"/></clipPath></defs><style>.a{fill:#fff}</style><g clip-path=\"url(#cp1)\"><path class=\"a\" d=\"m46 191.1c6 2.3 11.9 4.9 18 6.8 17.2 5.4 34.6 6.5 51.8-0.3 14.1-5.5 24.7-15.4 33.5-27.5 7.5-10.4 13-21.8 18.6-33.2q32.8-66.5 65.5-133.2c0.9-1.9 1.9-2.7 4.2-2.7 27.2 0.1 54.4 0 81.6 0h2.9q-0.2 1-0.6 2-47.5 97.1-95.1 194.2c-7.7 15.8-16.8 31-29 43.9-20 21.1-44.7 29.8-73.6 26-26.7-3.6-46-18.8-61-40.3-7.2-10.6-12.8-22.2-16.5-34.4q-0.2-0.7-0.3-1.3z\"/><path fill-rule=\"evenodd\" class=\"a\" d=\"m944.9 131.6c2.9-14 10.8-26.4 22.2-34.9 12.4-9.4 26.6-13.9 41.7-15.7 16.3-1.9 32.4-1.5 48.1 3.4 25.6 7.9 39.8 25.5 43.6 51.7q1.1 8.4 1 16.9c0.2 18.2 0 36.5 0.1 54.7 0 8.3 4 12.3 12.3 12.6q2.3 0 4.6 0h2.3v38.1c-0.2 0.1-0.4 0.3-0.5 0.3-11.6-0.1-23.3 1.1-34.8-1.3-13.2-2.7-22.2-10.2-26.3-23.2-0.1-0.3-0.3-0.7-0.5-1.4-1.3 1.7-2.4 3.1-3.6 4.5-9.9 12.4-23 19.4-38.4 21.9-13.7 2.3-27.4 2.1-40.7-2-15.8-4.9-28.4-13.9-34.8-29.5-10-24.2-2.9-52.6 25.4-65.9 11.4-5.2 23.7-8.3 36.2-9.2 17.8-1.4 35.5-2.5 53.3-3.8 1.1-12.4-4.7-24-14.8-28.2-5.7-2.5-11.9-3.7-18.2-3.6-6.2 0.1-12.4 1.6-18 4.3-6.8 3.2-10.9 8.8-12.8 16.4zm111.6 47.9c-1 0-1.6 0-2.3 0-10.3 0.9-20.6 1.8-30.9 2.8-8.6 0.8-17.2 1.4-25.2 4.8-5.3 2.2-10.1 5.1-12.5 10.7-4.1 9.3 1.1 20.2 11.1 24.1 19.4 7.5 42.5-0.4 53.2-18.4 4.5-7.2 6.7-15.6 6.6-24z\"/><path class=\"a\" d=\"m816.8 129.7l-43.7 5.6c-1.7-3-2.9-6.1-4.9-8.6-4.5-5.8-10.9-8.6-18-9.7-9.8-1.5-19.6-1.6-28.7 3.4-3.2 1.6-5.7 4.4-6.9 7.9-2.1 6-0.2 11.2 5.4 14.3 7.6 4.1 16.1 5.2 24.4 6.9 13.4 2.8 27 5.4 40.3 8.7 8.5 2.2 16.2 6.6 22.4 12.8 9.4 9.2 12.8 20.7 12.2 33.5-1.1 24.5-14 41.3-36.3 50-26.3 10.3-53.1 9.9-79.3-1-16.9-7.1-28.6-19.6-33.6-37.6-0.6-2.2-0.9-4.3-1.5-6.9l44.3-5.7c0.7 1.9 1.2 3.9 2.1 5.7 3.8 7.9 10.6 12.2 18.8 14.3 9.5 2.4 19.1 2.5 28.5-0.9 4.7-1.7 8.6-4.5 10.7-9.2 3.9-8.5 1-16.2-8.3-19.6-7.3-2.7-15.1-4.2-22.7-5.9-12.8-2.9-25.7-5-38.3-8.3-10.1-2.5-19.1-8.2-25.7-16.3-8.7-10.7-10.5-23.3-8.1-36.5 3.5-19.1 15.6-31.3 32.8-38.8 15.7-6.9 32.2-8.3 49.2-7.3 10.4 0.5 20.6 2.7 30.2 6.7 18.8 7.9 30.5 21.8 34.7 42.5z\"/><path class=\"a\" d=\"m370.2 82.8h2.9q22.7 0 45.4 0c2.1 0 2.9 0.8 3.5 2.6q20.1 57.3 40.3 114.5c0.4 0.9 0.7 1.8 1.3 3.2 3.4-9.8 6.7-19 10-28.2q15.7-44.7 31.5-89.5c0.6-1.9 1.4-2.6 3.5-2.6 14.8 0.2 29.6 0 44.3 0h2.8c-1.3 3.4-2.5 6.5-3.6 9.6q-31.5 81.9-62.8 163.8c-0.8 2-1.6 2.7-3.8 2.7q-22.7-0.1-45.4 0c-0.8 0.1-1.6 0-2.2-0.5-0.7-0.4-1.1-1.1-1.3-1.8q-32.7-85.6-65.5-171.2c-0.3-0.8-0.5-1.5-0.9-2.6z\"/><path class=\"a\" d=\"m1366.7 82.8h12.7c11.8 0 23.5 0.1 35.2 0 2.4 0 3.3 0.8 4.1 3q20 57.2 40.2 114.2c0.3 0.8 0.7 1.7 1.2 3.1 14.3-40.4 28.3-80.2 42.4-120.1h49.5c-0.3 1.1-0.5 1.9-0.9 2.8q-32.7 85.3-65.4 170.6c-0.7 1.8-1.5 2.6-3.6 2.6q-22.8-0.2-45.6 0c-0.8 0.1-1.5-0.1-2.1-0.5-0.6-0.4-1.1-1.1-1.2-1.8q-32.8-85.7-65.7-171.3c-0.2-0.8-0.4-1.5-0.8-2.6z\"/><path class=\"a\" d=\"m1207.5 123.1v3q0 34.8 0 69.6 0.1 4.7 0.9 9.3c1.2 6.7 5.2 10.9 11.9 12q7.1 0.9 14.2 1c3.9 0.2 7.8 0 11.9 0v40.5q-0.6 0.2-1.2 0.3c-13-0.2-26 0.1-38.9-0.6-13.4-0.8-25.4-5.3-34.3-15.9-5.9-6.9-9.5-15.5-10.1-24.5-1-14.2-1-28.5-1.2-42.8-0.1-16.4 0-32.8 0-49.2 0-0.7 0-1.5-0.1-2.6h-27.9v-40.4c0.9 0 1.8 0 2.8 0 6.5-0.1 13-0.1 19.6-0.5 5.2-0.2 9.2-3 10.4-8.1q2.1-10.1 3.1-20.4c0.4-3.7 0-7.6 0-11.6h38.8v40.6h46.6v40.3z\"/><path class=\"a\" d=\"m168 1.3c-0.3 0.8-0.5 1.4-0.7 2q-22.4 46.4-44.9 92.7c-4.7 10-11.3 19.1-19.3 26.8-13.8 12.9-29.9 17.6-48.5 13.5-13.4-2.8-25.4-10.4-33.6-21.4-10.7-13.9-15.8-30.3-21-47.2 1.1 0.4 1.8 0.7 2.5 1 9.1 4.1 18.5 7.6 28.6 8.4 15 1.3 27.4-4.1 35.1-17.1 7-11.9 12.7-24.6 18.9-37 3.2-6.5 6.2-13.2 9.2-19.9 0.6-1.4 1.2-2.2 2.9-2.1q34.5 0.1 69 0 0.9 0.1 1.8 0.3z\"/><path class=\"a\" d=\"m630.9 82.9v175.7h-46.4v-175.7z\"/><path class=\"a\" d=\"m1337.7 83v175.7h-46.3v-175.7z\"/><path class=\"a\" d=\"m902 82.9v175.7h-46.4v-175.7z\"/><path class=\"a\" d=\"m607.7 54.6c-9.3-0.2-17.1-3.2-22.9-10.6-10.1-12.6-4.5-33.1 10.8-38.4 9.4-3.3 19-3.5 27.8 1.7 8.8 5.2 12.9 13.1 12.2 23.1-0.7 10.8-6.5 18.4-16.7 22.1-3.5 1.4-7.5 1.5-11.2 2.1z\"/><path class=\"a\" d=\"m1314.7 53.9c-9.2 0.4-16.8-2.4-22.7-9.6-10.4-12.8-5.3-32.9 10.2-38.8 9.4-3.6 19.2-3.5 28.2 1.7 8 4.7 12.2 12.1 12.2 21.3 0.1 9.2-4.1 16.7-12.1 21.7-4.8 2.8-10.3 4.1-15.8 3.7z\"/><path class=\"a\" d=\"m878.7 53.7c-9.2 0.6-17-2.2-22.7-9.6-5.9-7.6-7.1-16.2-3.5-25 3.7-8.9 10.3-14.1 19.8-15.3 7.3-1 14.5-0.9 21.2 2.7 4.7 2.6 8.5 6.6 10.8 11.4 2.3 4.9 3 10.3 1.9 15.6-1 5.3-3.8 10.2-7.8 13.8-4.1 3.6-9.2 5.9-14.6 6.4-1.7 0.1-3.4 0-5.1 0z\"/></g>"}}}),
 };
 
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
@@ -7321,7 +7398,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _qdOR6w, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _qdOR6w, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _qdOR6w, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1735752891913.json', handler: _FnrBin, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1737306321073.json', handler: _FnrBin, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _mxrNQk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _mxrNQk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _mxrNQk, lazy: false, middleware: false, method: "get" },

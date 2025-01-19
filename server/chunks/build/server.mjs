@@ -1,5 +1,5 @@
 import * as e$1 from 'vue';
-import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, defineAsyncComponent, toRef, isRef, useAttrs, computed, toValue, defineComponent, useSSRContext, onMounted, cloneVNode, h as h$1, Fragment, provide, onUnmounted, unref, Teleport, reactive, shallowRef, normalizeClass, useId, onServerPrefetch, shallowReactive, Suspense, nextTick, Transition, createElementBlock, createVNode, resolveDynamicComponent, mergeProps, withCtx, renderSlot, resolveComponent, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, useSlots, withModifiers, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, createSlots, renderList, isShallow, isReactive, toRaw } from 'vue';
+import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, defineAsyncComponent, toRef, isRef, useAttrs, computed, toValue, defineComponent, useSSRContext, onMounted, cloneVNode, h as h$1, Fragment, provide, onUnmounted, unref, Teleport, reactive, nextTick, shallowRef, normalizeClass, useId, onServerPrefetch, shallowReactive, Suspense, Transition, createElementBlock, createVNode, resolveDynamicComponent, mergeProps, withCtx, renderSlot, resolveComponent, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, useSlots, withModifiers, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, createSlots, renderList, isShallow, isReactive, toRaw } from 'vue';
 import http from 'node:http';
 import https from 'node:https';
 import { C as withBase, D as withQuery, o as destr, E as l$3, F as s, G as i$6, m as defu, H as defuFn, I as klona, J as createDefu, K as parseQuery, L as isEqual, M as createHooks, h as createError$1, N as hasProtocol, r as joinURL, O as consola, P as isScriptProtocol, Q as sanitizeStatusCode, R as withTrailingSlash, y as withoutTrailingSlash, S as toRouteMatcher, T as createRouter$1 } from '../runtime.mjs';
@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-B-CbkY_W.mjs')
+    component: () => import('./index-pKpksrYY.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1460,41 +1460,41 @@ const revive_payload_server_q07yVgwvJJ = /* @__PURE__ */ defineNuxtPlugin({
     }
   }
 });
-const LazyCallout = defineAsyncComponent(() => import('./Callout-CjIpG6pL.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCard = defineAsyncComponent(() => import('./Card-DZXVb_7A.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-DoR8OL-A.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-B-2-eOHp.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-CZQAMZnl.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyField = defineAsyncComponent(() => import('./Field-DeGbuR2k.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-NkBhco4G.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-DDUVT87W.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTabs = defineAsyncComponent(() => import('./Tabs-CCXajY4q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-C7MpqssV.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-DF-c2u6a.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-D71lQppw.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-PfyYWoZd.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-DkZhtbDE.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-1oSke1xn.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-BJ55T-7Y.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-CzXfSkrE.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-DF2EOZ_a.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-CzQzOg2t.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-K-hTotoZ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-DnEcQZTW.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-BnTXep_w.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCallout = defineAsyncComponent(() => import('./Callout-COZOz03_.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCard = defineAsyncComponent(() => import('./Card-C0Cogks5.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-CHRPtnrX.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-CzAK385S.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-YGntQElz.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyField = defineAsyncComponent(() => import('./Field-CfOTmvuO.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-BMinbqf6.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-DI3IrB0T.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTabs = defineAsyncComponent(() => import('./Tabs-jbYaH0-F.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-hTrkq772.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton--4xD5xDe.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-CMi-IQWB.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-CeGYaNa9.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-AcFyNWdd.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-C6qOFWKC.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-BCzg-Kpr.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-B2sxIYTO.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-xmyoXh1D.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-Dqcbvk9i.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-BkoTwu0c.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-B0woWcTr.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-kMgStrZh.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot-OYguIYno.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-D-HpOTFS.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-B3xRL9p6.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-DXW5LLno.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-DfaVA199.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-OFpgDzaf.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-CeMqxToE.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseA = defineAsyncComponent(() => import('./ProseA-BNca-jIi.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-uTLr4Yw3.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-Be9ZZiy-.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-DdhwDC4Q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-CzRHjVPF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-D6HcKmbN.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-HpkTO50y.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-ZlOaBhmI.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-BPcaKGG-.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-DnzEjWlE.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-BDeK5Z4U.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-Dshl05Ef.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseP = defineAsyncComponent(() => import('./ProseP-6jTg2RYg.mjs').then((r2) => r2["default"] || r2.default || r2));
@@ -1955,7 +1955,7 @@ const cfg0 = defineAppConfig({
     },
     pricing: {
       card: {
-        highlight: "ring-gray-900 dark:ring-white",
+        highlight: "",
         features: {
           item: {
             icon: {
@@ -2685,7 +2685,7 @@ const inputMenu = {
     background: "before:bg-white dark:before:bg-gray-700"
   }
 };
-({
+const selectMenu = {
   ...inputMenu,
   select: "inline-flex items-center text-left cursor-default",
   input: "block w-[calc(100%+0.5rem)] focus:ring-transparent text-sm px-3 py-1.5 text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border-0 border-b border-gray-200 dark:border-gray-700 sticky -top-1 -mt-1 mb-1 -mx-1 z-10 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none",
@@ -2714,7 +2714,7 @@ const inputMenu = {
     ring: "before:ring-1 before:ring-gray-200 dark:before:ring-gray-700",
     background: "before:bg-white dark:before:bg-gray-700"
   }
-});
+};
 const card = {
   base: "",
   background: "bg-white dark:bg-gray-900",
@@ -3420,7 +3420,7 @@ function i$3(r2) {
 }
 let c$1 = ["[contentEditable=true]", "[tabindex]", "a[href]", "area[href]", "button:not([disabled])", "iframe", "input:not([disabled])", "select:not([disabled])", "textarea:not([disabled])"].map((e2) => `${e2}:not([tabindex='-1'])`).join(",");
 var N$4 = ((n2) => (n2[n2.First = 1] = "First", n2[n2.Previous = 2] = "Previous", n2[n2.Next = 4] = "Next", n2[n2.Last = 8] = "Last", n2[n2.WrapAround = 16] = "WrapAround", n2[n2.NoScroll = 32] = "NoScroll", n2))(N$4 || {}), T$2 = ((o2) => (o2[o2.Error = 0] = "Error", o2[o2.Overflow = 1] = "Overflow", o2[o2.Success = 2] = "Success", o2[o2.Underflow = 3] = "Underflow", o2))(T$2 || {}), F$1 = ((t2) => (t2[t2.Previous = -1] = "Previous", t2[t2.Next = 1] = "Next", t2))(F$1 || {});
-function E$2(e2 = (void 0).body) {
+function E$3(e2 = (void 0).body) {
   return e2 == null ? [] : Array.from(e2.querySelectorAll(c$1)).sort((r2, t2) => Math.sign((r2.tabIndex || Number.MAX_SAFE_INTEGER) - (t2.tabIndex || Number.MAX_SAFE_INTEGER)));
 }
 var h = ((t2) => (t2[t2.Strict = 0] = "Strict", t2[t2.Loose = 1] = "Loose", t2))(h || {});
@@ -3456,7 +3456,7 @@ function O(e2, r2 = (t2) => t2) {
 }
 function P(e2, r2, { sorted: t2 = true, relativeTo: l2 = null, skipElements: o2 = [] } = {}) {
   var m2;
-  let i2 = (m2 = Array.isArray(e2) ? e2.length > 0 ? e2[0].ownerDocument : void 0 : e2 == null ? void 0 : e2.ownerDocument) != null ? m2 : void 0, n2 = Array.isArray(e2) ? t2 ? O(e2) : e2 : E$2(e2);
+  let i2 = (m2 = Array.isArray(e2) ? e2.length > 0 ? e2[0].ownerDocument : void 0 : e2 == null ? void 0 : e2.ownerDocument) != null ? m2 : void 0, n2 = Array.isArray(e2) ? t2 ? O(e2) : e2 : E$3(e2);
   o2.length > 0 && n2.length > 1 && (n2 = n2.filter((s3) => !o2.includes(s3))), l2 = l2 != null ? l2 : i2.activeElement;
   let x2 = (() => {
     if (r2 & 5) return 1;
@@ -3594,6 +3594,11 @@ function j(...r2) {
       d2(n2, ...l2);
     }
   } });
+  return t2;
+}
+function E$2(r2) {
+  let t2 = Object.assign({}, r2);
+  for (let e2 in t2) t2[e2] === void 0 && delete t2[e2];
   return t2;
 }
 function T$1(r2, t2 = []) {
@@ -4166,7 +4171,7 @@ let ye = defineComponent({ name: "Popover", inheritAttrs: false, props: { as: { 
     var L2, $2;
     if (!o$1(o2) || !o$1(m2)) return false;
     for (let x2 of (void 0).querySelectorAll("body > *")) if (Number(x2 == null ? void 0 : x2.contains(o$1(o2))) ^ Number(x2 == null ? void 0 : x2.contains(o$1(m2)))) return true;
-    let e2 = E$2(), r2 = e2.indexOf(o$1(o2)), l2 = (r2 + e2.length - 1) % e2.length, g2 = (r2 + 1) % e2.length, G = e2[l2], C = e2[g2];
+    let e2 = E$3(), r2 = e2.indexOf(o$1(o2)), l2 = (r2 + e2.length - 1) % e2.length, g2 = (r2 + 1) % e2.length, G = e2[l2], C = e2[g2];
     return !((L2 = o$1(m2)) != null && L2.contains(G)) && !(($2 = o$1(m2)) != null && $2.contains(C));
   }), a2 = { popoverState: t2, buttonId: ref(null), panelId: ref(null), panel: m2, button: o2, isPortalled: E2, beforePanelSentinel: y2, afterPanelSentinel: v2, togglePopover() {
     t2.value = u$5(t2.value, { [0]: 1, [1]: 0 });
@@ -4245,7 +4250,7 @@ let ye = defineComponent({ name: "Popover", inheritAttrs: false, props: { as: { 
     let e2 = o$1(t2.panel);
     if (!e2) return;
     function r2() {
-      u$5(i2.value, { [d$3.Forwards]: () => P(e2, N$4.First), [d$3.Backwards]: () => P(e2, N$4.Last) }) === T$2.Error && P(E$2().filter((g2) => g2.dataset.headlessuiFocusGuard !== "true"), u$5(i2.value, { [d$3.Forwards]: N$4.Next, [d$3.Backwards]: N$4.Previous }), { relativeTo: o$1(t2.button) });
+      u$5(i2.value, { [d$3.Forwards]: () => P(e2, N$4.First), [d$3.Backwards]: () => P(e2, N$4.Last) }) === T$2.Error && P(E$3().filter((g2) => g2.dataset.headlessuiFocusGuard !== "true"), u$5(i2.value, { [d$3.Forwards]: N$4.Next, [d$3.Backwards]: N$4.Previous }), { relativeTo: o$1(t2.button) });
     }
     r2();
   }
@@ -4314,7 +4319,7 @@ let je = defineComponent({ name: "PopoverPanel", props: { as: { type: [Object, S
       u$5(c2.value, { [d$3.Forwards]: () => {
         let u2 = o$1(o$22.button), e2 = o$1(o$22.panel);
         if (!u2) return;
-        let r2 = E$2(), l2 = r2.indexOf(u2), g2 = r2.slice(0, l2 + 1), C = [...r2.slice(l2 + 1), ...g2];
+        let r2 = E$3(), l2 = r2.indexOf(u2), g2 = r2.slice(0, l2 + 1), C = [...r2.slice(l2 + 1), ...g2];
         for (let L2 of C.slice()) if (L2.dataset.headlessuiFocusGuard === "true" || e2 != null && e2.contains(L2)) {
           let $2 = C.indexOf(L2);
           $2 !== -1 && C.splice($2, 1);
@@ -6631,7 +6636,7 @@ _sfc_main$m.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../node_modules/.pnpm/@nuxt+ui@2.18.7_magicast@0.3.5_rollup@4.24.0_vite@5.4.8_@types+node@22.7.4_terser@5.34.1__vue@3.5.11_typescript@5.6.2_/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue");
   return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
 };
-const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["ssrRender", _sfc_ssrRender$8]]);
+const __nuxt_component_1$2 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["ssrRender", _sfc_ssrRender$8]]);
 const _sfc_main$l = /* @__PURE__ */ defineComponent({
   ...{
     inheritAttrs: false
@@ -6674,7 +6679,7 @@ const _sfc_main$l = /* @__PURE__ */ defineComponent({
     return (_ctx, _push, _parent, _attrs) => {
       var _a;
       const _component_ULink = __nuxt_component_0$5;
-      const _component_UIcon = __nuxt_component_1$1;
+      const _component_UIcon = __nuxt_component_1$2;
       if ((_a = __props.links) == null ? void 0 : _a.length) {
         _push(`<div${ssrRenderAttrs(mergeProps({
           class: unref(ui).wrapper
@@ -6812,7 +6817,7 @@ const _sfc_main$k = /* @__PURE__ */ defineComponent({
       var _a;
       const _component_UPopover = __nuxt_component_0$6;
       const _component_ULink = __nuxt_component_0$5;
-      const _component_UIcon = __nuxt_component_1$1;
+      const _component_UIcon = __nuxt_component_1$2;
       const _component_UHeaderPopoverLinks = _sfc_main$l;
       if ((_a = __props.links) == null ? void 0 : _a.length) {
         _push(`<ul${ssrRenderAttrs(mergeProps({
@@ -6991,7 +6996,7 @@ function useInjectButtonGroup({ ui, props }) {
 const config$6 = mergeConfig(appConfig.ui.strategy, appConfig.ui.button, button);
 const _sfc_main$j = defineComponent({
   components: {
-    UIcon: __nuxt_component_1$1,
+    UIcon: __nuxt_component_1$2,
     ULink: __nuxt_component_0$5
   },
   inheritAttrs: false,
@@ -7155,7 +7160,7 @@ const _sfc_main$j = defineComponent({
 });
 function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_ULink = __nuxt_component_0$5;
-  const _component_UIcon = __nuxt_component_1$1;
+  const _component_UIcon = __nuxt_component_1$2;
   _push(ssrRenderComponent(_component_ULink, mergeProps({
     type: _ctx.type,
     disabled: _ctx.disabled || _ctx.loading,
@@ -7285,7 +7290,7 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
     return (_ctx, _push, _parent, _attrs) => {
       var _a;
       const _component_ULink = __nuxt_component_0$5;
-      const _component_UIcon = __nuxt_component_1$1;
+      const _component_UIcon = __nuxt_component_1$2;
       if ((_a = __props.links) == null ? void 0 : _a.length) {
         _push(`<div${ssrRenderAttrs(mergeProps({
           class: unref(ui).wrapper
@@ -7851,7 +7856,7 @@ _sfc_main$h.setup = (props, ctx) => {
 const config$5 = mergeConfig(appConfig.ui.strategy, appConfig.ui.avatar, avatar);
 const _sfc_main$g = defineComponent({
   components: {
-    UIcon: __nuxt_component_1$1
+    UIcon: __nuxt_component_1$2
   },
   inheritAttrs: false,
   props: {
@@ -7978,7 +7983,7 @@ const _sfc_main$g = defineComponent({
   }
 });
 function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_UIcon = __nuxt_component_1$1;
+  const _component_UIcon = __nuxt_component_1$2;
   _push(`<span${ssrRenderAttrs(mergeProps({ class: _ctx.wrapperClass }, _attrs))}>`);
   if (_ctx.url && !_ctx.error) {
     ssrRenderVNode(_push, createVNode(resolveDynamicComponent(_ctx.as), mergeProps({
@@ -8012,12 +8017,12 @@ _sfc_main$g.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("../node_modules/.pnpm/@nuxt+ui@2.18.7_magicast@0.3.5_rollup@4.24.0_vite@5.4.8_@types+node@22.7.4_terser@5.34.1__vue@3.5.11_typescript@5.6.2_/node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue");
   return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
 };
-const __nuxt_component_4$1 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$6]]);
+const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$6]]);
 const config$4 = mergeConfig(appConfig.ui.strategy, appConfig.ui.divider, divider);
 const _sfc_main$f = defineComponent({
   components: {
-    UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_4$1
+    UIcon: __nuxt_component_1$2,
+    UAvatar: __nuxt_component_1$1
   },
   inheritAttrs: false,
   props: {
@@ -8092,8 +8097,8 @@ const _sfc_main$f = defineComponent({
   }
 });
 function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_4$1;
+  const _component_UIcon = __nuxt_component_1$2;
+  const _component_UAvatar = __nuxt_component_1$1;
   _push(`<div${ssrRenderAttrs(mergeProps({ class: _ctx.wrapperClass }, _ctx.attrs, _attrs))}><div class="${ssrRenderClass(_ctx.borderClass)}"></div>`);
   if (_ctx.label || _ctx.icon || _ctx.avatar || _ctx.$slots.default) {
     _push(`<!--[--><div class="${ssrRenderClass(_ctx.containerClass)}">`);
@@ -8161,23 +8166,35 @@ const _sfc_main$e = /* @__PURE__ */ defineComponent({
       label: "Études",
       to: "#studies",
       icon: "i-heroicons-cube-transparent",
-      active: activeHeadings.value.includes("studies") && !activeHeadings.value.includes("pricing")
-    }, {
-      label: "Tarifs",
-      to: "#pricing",
-      icon: "i-heroicons-credit-card",
-      active: activeHeadings.value.includes("pricing") && !activeHeadings.value.includes("projects")
+      active: activeHeadings.value.includes("studies") && !activeHeadings.value.includes("projects")
     }, {
       label: "Projets",
       to: "#projects",
       icon: "i-heroicons-academic-cap",
-      active: activeHeadings.value.includes("projects")
+      active: activeHeadings.value.includes("projects") && !activeHeadings.value.includes("experiences")
+    }, {
+      label: "Expériences",
+      to: "#experiences",
+      icon: "i-heroicons-academic-cap",
+      active: activeHeadings.value.includes("experiences") && !activeHeadings.value.includes("about")
+    }, {
+      label: "À propos",
+      to: "#about",
+      icon: "i-heroicons-academic-cap",
+      active: activeHeadings.value.includes("about") && !activeHeadings.value.includes("pricing")
+    }, {
+      label: "Tarifs",
+      to: "#pricing",
+      icon: "i-heroicons-credit-card",
+      active: activeHeadings.value.includes("pricing")
     }]);
     nuxtApp.hooks.hookOnce("page:finish", () => {
       updateHeadings([
         (void 0).querySelector("#studies"),
-        (void 0).querySelector("#pricing"),
-        (void 0).querySelector("#projects")
+        (void 0).querySelector("#projects"),
+        (void 0).querySelector("#experiences"),
+        (void 0).querySelector("#about"),
+        (void 0).querySelector("#pricing")
       ]);
     });
     return (_ctx, _push, _parent, _attrs) => {
@@ -8653,7 +8670,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   const _component_UDivider = __nuxt_component_9;
   _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col gap-4" }, _attrs))}><div class="grid grid-cols-2 gap-2">`);
   _push(ssrRenderComponent(_component_UButton, {
-    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    ui: { rounded: "rounded-md" },
     icon: "i-simple-icons-linkedin",
     size: "lg",
     color: "blue",
@@ -8664,7 +8681,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     target: "_blank"
   }, null, _parent));
   _push(ssrRenderComponent(_component_UButton, {
-    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    ui: { rounded: "rounded-md" },
     icon: "i-simple-icons-github",
     size: "lg",
     color: "gray",
@@ -8676,7 +8693,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   }, null, _parent));
   _push(ssrRenderComponent(_component_UButton, {
     block: "",
-    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    ui: { rounded: "rounded-md" },
     icon: "i-simple-icons-malt",
     size: "lg",
     color: "red",
@@ -8691,7 +8708,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   _push(ssrRenderComponent(_component_UDivider, { label: "Ou" }, null, _parent));
   _push(ssrRenderComponent(_component_UButton, {
     block: "",
-    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    ui: { rounded: "rounded-md" },
     icon: "i-heroicons-envelope-solid",
     size: "lg",
     variant: "solid",
@@ -8701,7 +8718,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   }, null, _parent));
   _push(ssrRenderComponent(_component_UButton, {
     block: "",
-    ui: { rounded: "rounded-md", font: "font-extrabold" },
+    ui: { rounded: "rounded-md" },
     icon: "i-heroicons-phone-solid",
     size: "lg",
     color: "white",
@@ -8933,7 +8950,7 @@ const _sfc_main$9 = /* @__PURE__ */ defineComponent({
     return (_ctx, _push, _parent, _attrs) => {
       var _a;
       const _component_ULink = __nuxt_component_0$5;
-      const _component_UIcon = __nuxt_component_1$1;
+      const _component_UIcon = __nuxt_component_1$2;
       if ((_a = __props.links) == null ? void 0 : _a.length) {
         _push(`<ul${ssrRenderAttrs(mergeProps({
           class: unref(ui).wrapper
@@ -9138,7 +9155,7 @@ const _sfc_main$7 = /* @__PURE__ */ defineComponent({
     const { ui, attrs } = useUI("footer.columns", toRef(props, "ui"), config2, toRef(props, "class"), true);
     return (_ctx, _push, _parent, _attrs) => {
       const _component_ULink = __nuxt_component_0$5;
-      const _component_UIcon = __nuxt_component_1$1;
+      const _component_UIcon = __nuxt_component_1$2;
       _push(`<div${ssrRenderAttrs(mergeProps({
         class: unref(ui).wrapper
       }, unref(attrs), _attrs))}>`);
@@ -9512,8 +9529,8 @@ function useTimer(cb, interval, options) {
 const config$1 = mergeConfig(appConfig.ui.strategy, appConfig.ui.notification, notification);
 const _sfc_main$4 = defineComponent({
   components: {
-    UIcon: __nuxt_component_1$1,
-    UAvatar: __nuxt_component_4$1,
+    UIcon: __nuxt_component_1$2,
+    UAvatar: __nuxt_component_1$1,
     UButton: __nuxt_component_0$3
   },
   inheritAttrs: false,
@@ -9663,8 +9680,8 @@ const _sfc_main$4 = defineComponent({
   }
 });
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_UIcon = __nuxt_component_1$1;
-  const _component_UAvatar = __nuxt_component_4$1;
+  const _component_UIcon = __nuxt_component_1$2;
+  const _component_UAvatar = __nuxt_component_1$1;
   const _component_UButton = __nuxt_component_0$3;
   _push(`<template><div${ssrRenderAttrs(mergeProps({
     class: _ctx.wrapperClass,
@@ -10098,5 +10115,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { t$2 as A, i$1 as B, A$2 as C, s$3 as D, l$2 as E, o as F, s$5 as G, useRoute as H, useRuntimeConfig as I, useNuxtApp as J, useToast as K, useState as L, N$3 as N, _export_sfc as _, __nuxt_component_0$7 as a, useUI as b, __nuxt_component_0$8 as c, __nuxt_component_0$3 as d, entry$1 as default, appConfig as e, useInjectButtonGroup as f, usePopper as g, useAppConfig as h, __nuxt_component_1$1 as i, config$9 as j, getNuxtLinkProps as k, getSlotChildrenText as l, mergeConfig as m, nuxtLinkProps as n, __nuxt_component_0$2 as o, __nuxt_component_9 as p, avatar as q, getSlotsChildren as r, __nuxt_component_4$1 as s, tooltip as t, useHead as u, useAsyncData as v, useSeoMeta as w, i$5 as x, u$5 as y, o$1 as z };
+export { useNuxtApp as $, A$2 as A, usePopper as B, useAppConfig as C, __nuxt_component_1$2 as D, E$2 as E, nuxtLinkProps as F, config$9 as G, getNuxtLinkProps as H, getSlotChildrenText as I, __nuxt_component_0$2 as J, selectMenu as K, __nuxt_component_1$1 as L, get as M, N$3 as N, O, s$5 as P, avatar as Q, getSlotsChildren as R, Ge$1 as S, T$1 as T, Se as U, he as V, __nuxt_component_9 as W, useAsyncData as X, Ye as Y, useSeoMeta as Z, _export_sfc as _, __nuxt_component_0$7 as a, useRuntimeConfig as a0, useRoute as a1, useToast as a2, useState as a3, o$1 as b, u$5 as c, i$1 as d, entry$1 as default, u$3 as e, f$1 as f, i$5 as g, o as h, i$3 as i, t$1 as j, w$4 as k, l$2 as l, h as m, n$2 as n, o$3 as o, useUI as p, __nuxt_component_0$8 as q, __nuxt_component_0$3 as r, s$3 as s, t$2 as t, useHead as u, mergeConfig as v, w$2 as w, appConfig as x, useInjectButtonGroup as y, tooltip as z };
 //# sourceMappingURL=server.mjs.map
