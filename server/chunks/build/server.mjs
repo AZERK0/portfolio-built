@@ -1079,7 +1079,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-pKpksrYY.mjs')
+    component: () => import('./index-Bqgzy9uL.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1494,7 +1494,7 @@ const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-Be9ZZiy-.mjs').
 const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-D6HcKmbN.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-HpkTO50y.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-ZlOaBhmI.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-DnzEjWlE.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-UKg0qqra.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-BDeK5Z4U.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-Dshl05Ef.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseP = defineAsyncComponent(() => import('./ProseP-6jTg2RYg.mjs').then((r2) => r2["default"] || r2.default || r2));
